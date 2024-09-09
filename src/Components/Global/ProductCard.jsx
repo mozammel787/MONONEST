@@ -27,7 +27,7 @@ const ProductCard = () => {
 
                 </label>
                 <div className="absolute bottom-4 px-4 w-full hidden group-hover:inline-block duration-700">
-                    <Link to={'product'} className="  btn btn-neutral w-full shadow-xl text-gray-50">Add to cart</Link>
+                    <Link to={'/product'} className="  btn btn-neutral w-full shadow-xl text-gray-50">Add to cart</Link>
 
                 </div>
             </figure>
