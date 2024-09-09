@@ -39,13 +39,13 @@ const Hero = () => {
         className="absolute left-5 top-1/2 transform -translate-y-1/2 z-10 btn btn-circle"
         onClick={goToPreviousSlide}
       >
-        <GoArrowLeft className='text-3xl text-gray-600' />
+        <GoArrowLeft className='text-xl md:text-3xl text-gray-600' />
       </button>
       <button
         className="absolute right-5 top-1/2 transform -translate-y-1/2 z-10 btn btn-circle"
         onClick={goToNextSlide}
       >
-        <GoArrowRight className='text-3xl text-gray-600' />
+        <GoArrowRight className='text-xl md:text-3xl text-gray-600' />
       </button>
 
       <div className="carousel w-full relative">
@@ -54,19 +54,19 @@ const Hero = () => {
           style={{ transform: `translateX(-${(currentSlide - 1) * 100}%)` }}
         >
           <div className="carousel-item w-full flex-shrink-0 relative">
-            <img src={Hero1}  className="w-full h-[75vh] object-cover brightness-90" />
+            <img src={Hero1}  className="w-full h-[40vh] md:h-[75vh] object-cover brightness-90" />
           </div>
 
           <div className="carousel-item w-full flex-shrink-0 relative">
-            <img src={Hero2} className="w-full h-[75vh] object-cover brightness-90" />
+            <img src={Hero2} className="w-full h-[40vh] md:h-[75vh] object-cover brightness-90" />
           </div>
 
           <div className="carousel-item w-full flex-shrink-0 relative">
-            <img src={Hero3} className="w-full h-[75vh] object-cover brightness-90" />
+            <img src={Hero3} className="w-full h-[40vh] md:h-[75vh] object-cover brightness-90" />
           </div>
 
           <div className="carousel-item w-full flex-shrink-0 relative">
-            <img src={Hero4} className="w-full h-[75vh] object-cover brightness-90" />
+            <img src={Hero4} className="w-full h-[40vh] md:h-[75vh] object-cover brightness-90" />
           </div>
         </div>
 

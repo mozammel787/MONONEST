@@ -45,7 +45,7 @@ const Header = () => {
               <li><Link to={"contact"}>Contact Us</Link></li>
             </ul>
           </div>
-          <Link to={"/"} className='w-32  '>
+          <Link to={"/"} className=' w-20 md:w-32  '>
             <img className='w-full' src="logo.png" alt="" />
 
           </Link>

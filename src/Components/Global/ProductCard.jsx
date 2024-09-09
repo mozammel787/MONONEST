@@ -14,7 +14,7 @@ const ProductCard = () => {
                     className='h-[350px] object-contain group-hover:scale-110 duration-700' />
                 <div className="absolute top-4 left-4 badge badge-secondary rounded bg-white border-0 font-bold shadow-xl">NEW</div>
                 <div className="absolute top-12 left-4 badge bg-[#d17f34] rounded border-0 font-bold text-white shadow-xl">-50%</div>
-                <label className="swap  absolute top-4 right-4 p-2 rounded-full bg-white shadow-xl hidden group-hover:inline-grid duration-700">
+                <label className="swap  absolute top-4 right-4 p-2 rounded-full bg-white shadow-xl md:hidden group-hover:inline-grid duration-700">
                     {/* this hidden checkbox controls the state */}
                     <input type="checkbox" />
 
@@ -26,7 +26,7 @@ const ProductCard = () => {
 
 
                 </label>
-                <div className="absolute bottom-4 px-4 w-full hidden group-hover:inline-block duration-700">
+                <div className="absolute bottom-4 px-4 w-full md:hidden group-hover:inline-block duration-700">
                     <Link to={'/product'} className="  btn btn-neutral w-full shadow-xl text-gray-50">Add to cart</Link>
 
                 </div>
@@ -43,6 +43,7 @@ const ProductCard = () => {
                     Loveseat Sofa
                 </h2>
                 <p className="card-title font-semibold">$199.00</p>
+
             </div>
         </div>
     );

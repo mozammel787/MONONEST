@@ -26,7 +26,10 @@ const Filter = () => {
   };
 
   return (
-    <div className=' w-[25%]'>
+    <div className=' w-[25%] hidden md:block'>
+
+
+
 
       <h3 className='text-3xl flex items-center gap-2 font-semibold mt-3' ><AiOutlineControl />
         Filter
@@ -100,6 +103,7 @@ const Filter = () => {
           ))}
         </div>
       </div>
+
     </div>
   );
 };
