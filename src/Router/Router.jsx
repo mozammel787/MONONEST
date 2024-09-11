@@ -5,6 +5,9 @@ import Shop from "../page/Shop";
 import AboutUs from "../page/AboutUs";
 import ContactUs from "../page/ContactUs";
 import SingleProduct from "../page/SingleProduct";
+import SignUp from "../page/SignUp";
+import SignIn from "../page/SignIn";
+import ErrorPage from "../Components/Global/ErrorPage";
 
 
 export const Router = createBrowserRouter(
@@ -12,7 +15,7 @@ export const Router = createBrowserRouter(
         {
             path: "/",
             element: <Layout />,
-            // errorElement:,
+            errorElement: <ErrorPage />,
             children: [
                 {
                     path: "",
@@ -33,11 +36,20 @@ export const Router = createBrowserRouter(
                 {
                     path: "contact",
                     element: <ContactUs />
-                },
-                
+                }
+
 
             ]
-        }
+        },
+        {
+            path: "signup",
+            element: <SignUp />
+        },
+        {
+            path: "signin",
+            element: <SignIn />
+        },
+        
     ]
 );
 

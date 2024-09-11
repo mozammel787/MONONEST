@@ -25,7 +25,7 @@ const MobileFilter = () => {
     };
 
     return (
-        <div className="drawer w-auto z-50 md:hidden">
+        <div className="drawer w-auto z-50  md:hidden">
             <input id="my-drawer" type="checkbox" className="drawer-toggle" />
             <div className="drawer-content">
                 {/* Page content here */}

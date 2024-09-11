@@ -7,9 +7,9 @@ import Kitchen from '../../assets/Kitchen.png'
 
 const MainCategories = () => {
     return (
-        <section className='container mx-auto px-6'>
+        <section className='container mx-auto px-6 md:px-0'>
             <div className='flex justify-between md:items-center flex-col md:flex-row mt-9 mb-14  gap-6'>
-                <h2 className='text-5xl md:text-8xl font-semibold'>Simply Unique<span className='text-gray-500'>/</span><br />
+                <h2 className='text-5xl md:text-7xl font-semibold'>Simply Unique<span className='text-gray-500'>/</span><br />
                     Simply Better<span className='text-gray-500'>.</span></h2>
                 <p className='text-gray-500 text-base pr-10 hidden md:block'>MONONEST is a gift & decorations store based in HCMC,<br /> Vietnam. Est since 2019.
                 </p>

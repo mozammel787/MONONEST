@@ -6,16 +6,16 @@ import MobileFilter from './MobileFilter';
 
 const ProductList = () => {
     return (
-        <div className=' md:w-[75%] px-6'>
+        <div className=' md:w-[75%] px-6 md:px-0'>
             <div className='flex items-center justify-between flex-col md:flex-row gap-3'>
-                <div className='flex items-center gap-6 justify-between w-full flex-row-reverse' >
-                    <MobileFilter />
+                <div className='flex items-center gap-6 justify-between md:justify-end w-full flex-row-reverse' >
+                  
+                    <MobileFilter  />
+                    
                     <h3 className=' text-xl md:text-3xl font-semibold'>Living Room</h3>
-
                 </div>
-                <div className='flex items-center gap-6 justify-between w-full'>
+                <div className='flex items-center gap-6 justify-between md:justify-end w-full'>
                     <div>
-
                         <select className=" ps-0 select w-full max-w-xs md:text-xl font-semibold ">
                             <option disabled selected>Sort by</option>
                             <option>Homer</option>

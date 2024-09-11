@@ -3,7 +3,7 @@ import { LiaLockSolid, LiaMoneyBillSolid, LiaPhoneSolid, LiaShippingFastSolid } 
 
 const Service = () => {
     return (
-        <div className='container mx-auto flex  items-center gap-6 flex-wrap  px-6  justify-center md:justify-between   my-14 '>
+        <div className='container mx-auto flex  items-center gap-6 flex-wrap  px-6 md:px-0 justify-center md:justify-between   my-20 '>
             <div className='flex flex-col gap-2  p-12 bg-[#f2f4f6] w-full md:w-[45%] lg:w-[23%] '>
                 <LiaShippingFastSolid className='text-5xl' />
                 <h5 className='text-2xl font-semibold'>Free Shipping</h5>
