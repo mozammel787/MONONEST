@@ -1,7 +1,12 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
+import { useAuth } from '../../Hook/useAuth';
+
 
 const Header = () => {
+  const { logOut, user } = useAuth();
+  // console.log(user?.photoURL);
+  
   return (
     <>
       <div className="px-8 py-1 bg-gray-100 text-gray-800">
@@ -78,27 +83,41 @@ const Header = () => {
               </div>
             </div>
           </div>
-          <div className="dropdown dropdown-end">
-            <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
-              <div className="w-10 rounded-full">
-                <img
-                  alt="Tailwind CSS Navbar component"
-                  src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+
+          {
+            user ? (
+              <div className="dropdown dropdown-end">
+                <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
+                  <div className="w-10 rounded-full">
+                    {user?.photoURL ? (
+                      <img
+                        alt="profile"
+                        src={user?.photoURL}
+                      />
+                    ) : (
+                      <h2 className="text-2xl uppercase">{user?.email[0]}</h2>
+                    )}
+                  </div>
+                </div>
+                <ul
+                  tabIndex={0}
+                  className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                  <li>
+                    <Link to={"/dashboard/profile"} className="justify-between">
+                      Profile
+                    </Link>
+                  </li>
+                  <li><Link to={"/dashboard/setting"}>Settings</Link></li>
+                  <li><div onClick={() => logOut()} to={"/"}>Logout</div></li>
+                </ul>
               </div>
-            </div>
-            <ul
-              tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-              <li>
-                <Link to={"/"} className="justify-between">
-                  Profile
-                  <span className="badge">New</span>
-                </Link>
-              </li>
-              <li><Link to={"/"}>Settings</Link></li>
-              <li><Link to={"/"}>Logout</Link></li>
-            </ul>
-          </div>
+            ) : (
+              <Link to={"/signin"} className="btn btn-neutral ">
+                Sign In
+              </Link>
+            )
+          }
+
         </div>
       </nav>
     </>

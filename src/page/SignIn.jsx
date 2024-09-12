@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import LoginImg from '../assets/LoginIMG.png';
-import useAuth from '../Hook/useAuth';
 import toast from 'react-hot-toast';
+import { useAuth } from '../Hook/useAuth';
 
 const SignIn = () => {
   const { googleLogin, user, logIn, message } = useAuth();
