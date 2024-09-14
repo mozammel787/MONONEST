@@ -1,58 +1,81 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { LuLayoutGrid, LuLayoutList } from 'react-icons/lu';
-import { MdKeyboardArrowDown } from 'react-icons/md';
 import ProductCard from '../Global/ProductCard';
 import MobileFilter from './MobileFilter';
 
-const ProductList = () => {
+const ProductList = ({ products, categories, priceRanges, selectedCategory, setSelectedCategory, selectedPrice, setSelectedPrice, loading }) => {
+    const [sortOption, setSortOption] = useState(''); // State for sort option
+    const [sortedProducts, setSortedProducts] = useState(products);
+
+    useEffect(() => {
+        let sorted = [...products];
+
+        switch (sortOption) {
+            case 'Price: Low to High':
+                sorted.sort((a, b) => parseFloat(a.price) - parseFloat(b.price));
+                break;
+            case 'Price: High to Low':
+                sorted.sort((a, b) => parseFloat(b.price) - parseFloat(a.price));
+                break;
+            case 'Newest':
+                sorted.sort((a, b) => new Date(b.date) - new Date(a.date)); // Assuming `date` exists in product
+                break;
+            case 'Best Selling':
+                sorted.sort((a, b) => parseFloat(b.ratings) - parseFloat(a.ratings)); // Assuming `sales` exists in product
+                break;
+            default:
+                break;
+        }
+
+        setSortedProducts(sorted);
+    }, [sortOption, products]); // Update sorting when sortOption or products change
+
     return (
-        <div className=' md:w-[75%] px-6 md:px-0'>
+        <div className='md:w-[75%] px-6 md:px-0'>
             <div className='flex items-center justify-between flex-col md:flex-row gap-3'>
-                <div className='flex items-center gap-6 justify-between md:justify-end w-full flex-row-reverse' >
-                  
-                    <MobileFilter  />
-                    
-                    <h3 className=' text-xl md:text-3xl font-semibold'>Living Room</h3>
+                <div className='flex items-center gap-6 justify-between md:justify-end w-full flex-row-reverse'>
+                    <MobileFilter
+                        categories={categories}
+                        priceRanges={priceRanges}
+                        selectedCategory={selectedCategory}
+                        setSelectedCategory={setSelectedCategory}
+                        selectedPrice={selectedPrice}
+                        setSelectedPrice={setSelectedPrice} />
+                    <h3 className='text-xl md:text-3xl font-semibold'>{selectedCategory}</h3>
                 </div>
-                <div className='flex items-center gap-6 justify-between md:justify-end w-full'>
-                    <div>
-                        <select className=" ps-0 select w-full max-w-xs md:text-xl font-semibold ">
-                            <option disabled selected>Sort by</option>
-                            <option>Homer</option>
-                            <option>Marge</option>
-                            <option>Bart</option>
-                            <option>Lisa</option>
-                            <option>Maggie</option>
-                        </select>
-                    </div>
-                    <div>
-                        <label htmlFor="Toggle3" className="inline-flex items-center cursor-pointer">
-                            <input id="Toggle3" type="checkbox" className="hidden peer" />
-                            <span className="px-4 py-2 border  bg-gray-100 text-gray-900 peer-checked:bg-white peer-checked:text-gray-500 text-lg md:text-2xl "><LuLayoutGrid /></span>
-                            <span className="px-4 py-2 border bg-white text-gray-500  peer-checked:bg-gray-100 peer-checked:text-gray-900 text-lg md:text-2xl"><LuLayoutList /></span>
-                        </label>
-                    </div>
+                <div className='flex items-center gap-6 justify-end w-full'>
+
+                    <select
+                        className="ps-0 select w-[40%] text-lg font-semibold"
+                        value={sortOption}
+                        onChange={(e) => setSortOption(e.target.value)}
+                    >
+                        <option value="" disabled>Select sort option</option>
+                        <option value="Price: Low to High">Price: Low to High</option>
+                        <option value="Price: High to Low">Price: High to Low</option>
+                        <option value="Newest">Newest</option>
+                        <option value="Best Selling">Best Selling</option>
+                    </select>
+
                 </div>
             </div>
-            <div>
-                <div className='flex justify-center md:justify-between flex-wrap items-center gap-6 my-10'>
-                    <ProductCard />
-                    <ProductCard />
-                    <ProductCard />
-                    <ProductCard />
-                    <ProductCard />
-                    <ProductCard />
-                    <ProductCard />
-                    <ProductCard />
-                    <ProductCard />
-                    <ProductCard />
-                    <ProductCard />
-                    <ProductCard />
-                    <ProductCard />
-                    <ProductCard />
-                    <ProductCard />
-                    <ProductCard />
-                </div>
+
+            <div className='flex justify-center md:justify-between flex-wrap items-center gap-6 my-10'>
+                {loading ? (
+                    // Render skeleton loaders while loading
+                    Array.from({ length: 8 }).map((_, index) => (
+                        <div key={index} className="card w-[262px] h-[350px] flex flex-col gap-4">
+                            <div className="skeleton h-96 w-full"></div>
+                            <div className="skeleton h-4 w-28"></div>
+                            <div className="skeleton h-4 w-full"></div>
+                            <div className="skeleton h-4 w-full"></div>
+                        </div>
+                    ))
+                ) : products.length > 0 ? (
+                    products.map((product, i) => <ProductCard key={i} product={product} />)
+                ) : (
+                    <p>No products found for the selected filters.</p>
+                )}
             </div>
         </div>
     );

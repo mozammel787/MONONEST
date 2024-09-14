@@ -14,7 +14,7 @@ const DashboardLayout = () => {
 
     return (
         <div className="min-h-screen container mx-auto">
-            <h3 className='text-center text-5xl font-bold mt-10 mb-20'>My Account</h3>
+            <h3 className='text-center text-5xl font-bold my-10 '>My Account</h3>
             <div className="flex  ">
 
                 {/* Sidebar */}
@@ -26,9 +26,6 @@ const DashboardLayout = () => {
                                 alt="Profile"
                                 className="w-24 h-24 rounded-full"
                             />
-                            <button className="absolute bottom-0 right-0 bg-gray-200 p-2 rounded-full">
-                                <FaCamera />
-                            </button>
                         </div>
                         <div className="ml-6 text-center">
                             <h3 className="text-xl font-bold">{user?.displayName}</h3>

@@ -13,7 +13,7 @@ const SignUp = () => {
   const [passwordMatchError, setPasswordMatchError] = useState('');
   
   const from = location?.state?.from?.pathname || '/';
-  const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000'; // Vite-specific env variable
+  const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000'; 
 
   const handleGoogleSubmit = async () => {
     setLoading(true);

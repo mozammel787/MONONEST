@@ -13,6 +13,7 @@ import Profile from "../Components/Dashboard/Profile";
 import OrderHistory from "../Components/Dashboard/OrderHistory";
 import PrivateRouter from "./PriveatRouter";
 
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
 
 export const Router = createBrowserRouter(
     [
@@ -27,11 +28,12 @@ export const Router = createBrowserRouter(
                 },
                 {
                     path: "shop",
-                    element: <Shop />
+                    element: <Shop />,
                 },
                 {
-                    path: "product",
-                    element: <SingleProduct />
+                    path: "product/:id",
+                    element: <SingleProduct />,
+                    loader: ({ params }) => fetch(`${API_URL}/product/${params.id}`)
                 },
                 {
                     path: "about",
@@ -70,7 +72,7 @@ export const Router = createBrowserRouter(
             path: "signin",
             element: <SignIn />
         },
-        
+
 
     ]
 );

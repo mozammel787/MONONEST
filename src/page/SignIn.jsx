@@ -12,6 +12,7 @@ const SignIn = () => {
   const [loading, setLoading] = useState(false);
 
   const from = location?.state?.from?.pathname || '/';
+  const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
 
   const handleGoogleSubmit = async () => {
     setLoading(true);
@@ -23,6 +24,8 @@ const SignIn = () => {
         photoURL: result?.user?.photoURL,
         phoneNumber: result?.user?.phoneNumber,
       };
+      console.log(user);
+      
       await submitUserToDB(user);
       toast.success('Login Successful');
     } catch (error) {
@@ -34,7 +37,7 @@ const SignIn = () => {
 
   const submitUserToDB = async (user) => {
     try {
-      const response = await fetch(`${import.meta.env.VITE_API_URL || 'http://localhost:5000'}/user`, {
+      const response = await fetch(`${API_URL}/user`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -76,7 +79,7 @@ const SignIn = () => {
       setLoading(false);
     }
     console.log(form.email.value);
-    
+
   };
 
   useEffect(() => {
