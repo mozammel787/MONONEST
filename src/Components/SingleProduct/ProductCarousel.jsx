@@ -1,23 +1,7 @@
 import React, { useState } from 'react';
-import Hero1 from '../../assets/LivingRoom.png'
 import { GoArrowLeft, GoArrowRight } from 'react-icons/go';
-const images = [
-  {
-    img: Hero1,
-  },
-  {
-    img: Hero1,
-  },
-  {
-    img: Hero1,
-  },
-  {
-    img: Hero1,
-  },
 
-]
-
-const ProductCarousel = () => {
+const ProductCarousel = ({images}) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const handlePrev = () => {
@@ -31,7 +15,6 @@ const ProductCarousel = () => {
   const handleThumbnailClick = (index) => {
     setCurrentIndex(index);
   };
-  console.log(images);
 
   return (
     <div className="relative w-full max-w-xl ">
@@ -44,7 +27,7 @@ const ProductCarousel = () => {
           {images.map((image, index) => (
             <img
               key={index}
-              src={image.img}
+              src={image}
               alt={`Product ${index}`}
               className="inline-block w-full object-cover"
             />
@@ -76,7 +59,7 @@ const ProductCarousel = () => {
         {images.map((image, index) => (
           <img
             key={index}
-            src={image.img}
+            src={image}
             alt={`Thumbnail ${index}`}
             className={`w-32 h-32 object-cover cursor-pointer ${currentIndex === index ? 'brightness-100 opacity-100' : 'brightness-75 opacity-75'
               }`}

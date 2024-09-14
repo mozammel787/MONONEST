@@ -33,7 +33,7 @@ const Hero = () => {
   };
 
   return (
-    <section className='mx-auto container overflow-hidden relative '>
+    <section className='mx-auto container overflow-hidden relative z-10'>
 
       <button
         className="absolute left-5 top-1/2 transform -translate-y-1/2 z-10 btn btn-circle"

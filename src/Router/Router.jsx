@@ -12,6 +12,9 @@ import DashboardLayout from "../Layout/DashboardLayout";
 import Profile from "../Components/Dashboard/Profile";
 import OrderHistory from "../Components/Dashboard/OrderHistory";
 import PrivateRouter from "./PriveatRouter";
+import Cart from "../page/Cart";
+import Checkout from "../page/CheckOut";
+import CompleteOrder from "../page/CompleteOrder";
 
 const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
 
@@ -39,6 +42,7 @@ export const Router = createBrowserRouter(
                     path: "about",
                     element: <AboutUs />
                 },
+
                 {
                     path: "contact",
                     element: <ContactUs />
@@ -60,6 +64,21 @@ export const Router = createBrowserRouter(
                         },
                     ],
                 },
+
+                {
+                    path: "cart",
+                    element: <PrivateRouter><Cart /></PrivateRouter>
+                },
+                {
+                    path: "checkout",
+                    element: <PrivateRouter><Checkout /></PrivateRouter>
+                },
+                {
+                    path: "complete-order",
+                    element: <PrivateRouter><CompleteOrder /></PrivateRouter>
+                },
+
+
 
 
             ]

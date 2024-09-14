@@ -1,17 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-const ProductCounter = () => {
-    const [count, setCount] = useState(1);
+const ProductCounter = ({count, handleIncrement, handleDecrement}) => {
 
-    const handleIncrement = () => {
-        setCount((prevCount) => prevCount + 1);
-    };
-
-    const handleDecrement = () => {
-        if (count > 1) {
-            setCount((prevCount) => prevCount - 1);
-        }
-    };
     return (
         <div className="flex items-center gap-6">
             <div className="flex items-center space-x-4  bg-gray-100 rounded-md">

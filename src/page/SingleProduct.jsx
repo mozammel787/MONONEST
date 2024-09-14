@@ -1,20 +1,19 @@
 import React, { useState } from 'react';
 import { IoStar, IoStarHalf, IoStarOutline } from 'react-icons/io5';
+import { useDispatch } from 'react-redux';
 import { Link, useLoaderData } from 'react-router-dom';
 import ProductCarousel from '../Components/SingleProduct/ProductCarousel';
 import ProductCounter from '../Components/SingleProduct/ProductCounter';
 import ProductDetils from '../Components/SingleProduct/ProductDetils';
 import SimilearProducts from '../Components/SingleProduct/SimilearProducts';
-
-
+import { addToCart } from '../store/cartSlice';
 
 const SingleProduct = () => {
     const [count, setCount] = useState(1);
-    const product = useLoaderData()
-    console.log(product);
-    
+    const product = useLoaderData();
+    const dispatch = useDispatch();  // Redux dispatch
 
-    const { name, description, price, images, category, ratings,_id } = product;
+    const { name, description, price, images, category, ratings, _id } = product;
 
     const handleIncrement = () => {
         setCount((prevCount) => prevCount + 1);
@@ -41,6 +40,12 @@ const SingleProduct = () => {
         return stars;
     };
 
+    // Function to handle adding to cart
+    const handleAddToCart = () => {
+        dispatch(addToCart({ id: _id, name, price, quantity: count, images }));  // Pass the count as quantity
+    };
+    
+
     return (
         <div className='container mx-auto'>
             <div className="breadcrumbs text-sm my-3">
@@ -52,8 +57,6 @@ const SingleProduct = () => {
                 </ul>
             </div>
             <div className='flex items-start justify-around gap-20'>
-
-
                 <ProductCarousel images={images} />
                 <div className='flex flex-col gap-4 w-[45%]'>
                     <h1 className='text-4xl font-semibold'>{name}</h1>
@@ -61,19 +64,28 @@ const SingleProduct = () => {
                     <div className="flex items-center gap-1">
                         {renderStars()} {/* Dynamic star ratings */}
                     </div>
-                   
                     <p className='text-lg text-gray-500'>{description}</p>
-
                     <hr />
                     <div className='flex justify-between items-center gap-6 w-[80%]'>
-
-                    <ProductCounter />
-
-                    <Link to={'/'} className="  btn btn-neutral w-full shadow-xl text-gray-50">Add to cart</Link>
-
+                        <div className="flex items-center gap-6">
+                            <div className="flex items-center space-x-4  bg-gray-100 rounded-md">
+                                <button
+                                    onClick={handleDecrement}
+                                    className="px-4 py-2  rounded-md text-xl hover:bg-black hover:text-white"
+                                > - </button>
+                                <span className="text-xl font-semibold">{count}</span>
+                                <button
+                                    onClick={handleIncrement}
+                                    className="px-4 py-2  rounded-md text-xl hover:bg-black  hover:text-white"
+                                > + </button>
+                            </div>
+                        </div>
+                        <button onClick={handleAddToCart} className="btn btn-neutral w-full shadow-xl text-gray-50">
+                            Add to cart
+                        </button>
                     </div>
                     <table className="table w-[50%] my-10 ">
-                        <tbody >
+                        <tbody>
                             <tr className='border-0 '>
                                 <th className='text-gray-500 font-normal text-base p-0'>SKU</th>
                                 <td className='text-black font-normal text-base p-0 pe-2'>{_id}</td>
@@ -84,8 +96,6 @@ const SingleProduct = () => {
                             </tr>
                         </tbody>
                     </table>
-                    
-
                     <ProductDetils description={description} />
                 </div>
             </div>
