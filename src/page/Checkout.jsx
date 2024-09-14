@@ -1,4 +1,3 @@
-// src/components/CheckoutPage.jsx
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { loadStripe } from '@stripe/stripe-js';
@@ -51,7 +50,7 @@ const CheckoutPage = () => {
         payment_method: {
           card: elements.getElement(CardElement),
           billing_details: {
-            name: 'Customer Name', // Replace with actual customer name
+            name: 'Customer Name', 
           },
         },
       });
@@ -65,9 +64,8 @@ const CheckoutPage = () => {
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
             paymentIntentId: paymentIntent.id,
-            customerEmail: 'customer@example.com', // Replace with actual customer email
-            items: [], // Replace with actual purchased items
-            totalAmount,
+            customerEmail: 'customer@example.com', 
+            items: [], 
           }),
         });
         navigate('/complete-order');
