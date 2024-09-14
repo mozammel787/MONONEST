@@ -7,7 +7,7 @@ import { useSelector } from 'react-redux';
 const stripePromise = loadStripe(import.meta.env.VITE_STRIPE_PUBLIC_KEY);
 const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
 
-const CheckoutPage = () => {
+const Checkout = () => {
   const [clientSecret, setClientSecret] = useState('');
   const [error, setError] = useState('');
   const [processing, setProcessing] = useState(false);
@@ -95,10 +95,10 @@ const CheckoutPage = () => {
   );
 };
 
-const WrappedCheckoutPage = () => (
+const WrappedCheckout = () => (
   <Elements stripe={stripePromise}>
-    <CheckoutPage />
+    <Checkout />
   </Elements>
 );
 
-export default WrappedCheckoutPage;
+export default WrappedCheckout;
