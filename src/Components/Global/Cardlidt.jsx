@@ -1,7 +1,7 @@
 import React from 'react';
 import { RiDeleteBin2Line } from 'react-icons/ri';
 
-const Cardlidt = ({ item }) => {
+const Cardlidt = ({ item, incrementQuantity, decrementQuantity, removeFromCart, dispatch }) => {
     return (
         <li key={item.id} className="flex flex-col py-6 sm:flex-row sm:justify-between">
             <div className="flex w-full bg-transparent">
@@ -25,7 +25,7 @@ const Cardlidt = ({ item }) => {
                             <button
                                 onClick={() => dispatch(removeFromCart(item.id))}
                                 className="btn btn-circle bg-gray-100 border-0 shadow text-xl">
-                               <RiDeleteBin2Line ></RiDeleteBin2Line>
+                                <RiDeleteBin2Line ></RiDeleteBin2Line>
                             </button>
                         </div>
                     </div>

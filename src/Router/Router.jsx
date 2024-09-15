@@ -14,7 +14,7 @@ import OrderHistory from "../Components/Dashboard/OrderHistory";
 import PrivateRouter from "./PriveatRouter";
 import Cart from "../page/Cart";
 import CompleteOrder from "../page/CompleteOrder";
-import WrappedCheckout from "../page/CheckOut";
+import Checkout from "../page/Chackout";
 
 const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
 
@@ -71,7 +71,7 @@ export const Router = createBrowserRouter(
                 },
                 {
                     path: "checkout",
-                    element: <PrivateRouter><WrappedCheckout /></PrivateRouter>
+                    element: <PrivateRouter><Checkout /></PrivateRouter>
                 },
                 {
                     path: "complete-order",

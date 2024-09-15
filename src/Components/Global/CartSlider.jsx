@@ -31,7 +31,7 @@ const CartSlider = () => {
                         <h2 className="text-xl font-semibold">Your cart</h2>
                         <ul className="flex flex-col divide-y divide-gray-300">
                             {cartItems.map((item) => (
-                                <Cardlidt key={item.id} item={item} />
+                                <Cardlidt key={item.id} item={item} incrementQuantity={incrementQuantity} decrementQuantity={decrementQuantity} removeFromCart={removeFromCart} dispatch={dispatch} />
                             ))}
                         </ul>
 
