@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const CartSlider = () => {
     const dispatch = useDispatch();
     const { cartItems, totalAmount } = useSelector((state) => state.cart);
-    console.log(cartItems);
+    // console.log(cartItems);
 
     return (
         <div className="drawer drawer-end z-50">

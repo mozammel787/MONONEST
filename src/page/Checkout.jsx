@@ -3,34 +3,41 @@ import { useNavigate } from 'react-router-dom';
 import { loadStripe } from '@stripe/stripe-js';
 import { Elements, CardElement, useStripe, useElements } from '@stripe/react-stripe-js';
 import { useSelector } from 'react-redux';
+import { useAuth } from '../Hook/useAuth';
 
-const stripePromise = loadStripe(import.meta.env.VITE_STRIPE_PUBLIC_KEY);
+// Load Stripe with public key
+const stripePromise = loadStripe('pk_test_TYooMQauvdEDq54NiTphI7jx');
 const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
 
 const Checkout = () => {
+  const { user } = useAuth();
   const [clientSecret, setClientSecret] = useState('');
   const [error, setError] = useState('');
   const [processing, setProcessing] = useState(false);
   const navigate = useNavigate();
-  const { totalAmount } = useSelector((state) => state.cart);
+  const { totalAmount, cartItems } = useSelector((state) => state.cart);
 
+  // Fetch client secret from backend
   useEffect(() => {
     const fetchClientSecret = async () => {
       try {
         const response = await fetch(`${API_URL}/create-payment-intent`, {
           method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ price: totalAmount }),
+          headers: {
+            'Content-Type': 'application/json',
+            authorization: `bearer ${localStorage.getItem("accessToken")}`,
+          },
+          body: JSON.stringify({ price: totalAmount }), // Send the amount
         });
         const data = await response.json();
-        setClientSecret(data.clientSecret);
+        setClientSecret(data.clientSecret); // Set the clientSecret
       } catch (error) {
         setError(error.message);
       }
     };
 
     if (totalAmount > 0) {
-      fetchClientSecret();
+      fetchClientSecret(); // Fetch client secret only if there's a total amount
     }
   }, [totalAmount]);
 
@@ -50,7 +57,8 @@ const Checkout = () => {
         payment_method: {
           card: elements.getElement(CardElement),
           billing_details: {
-            name: 'Customer Name', 
+            name: user?.displayName || 'Anonymous',
+            email: user?.email || 'anonymous@example.com',
           },
         },
       });
@@ -61,11 +69,15 @@ const Checkout = () => {
         // Save order details to the backend
         await fetch(`${API_URL}/payment`, {
           method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
+          headers: {
+            'Content-Type': 'application/json',
+            authorization: `bearer ${localStorage.getItem("accessToken")}`,
+          },
           body: JSON.stringify({
             paymentIntentId: paymentIntent.id,
-            customerEmail: 'customer@example.com', 
-            items: [], 
+            customerEmail: user?.email,
+            items: cartItems,
+            totalAmount,
           }),
         });
         navigate('/complete-order');
@@ -78,15 +90,15 @@ const Checkout = () => {
   };
 
   return (
-    <div className='container mx-auto'>
-      <h1 className='text-4xl font-semibold my-5'>Checkout</h1>
-      <form onSubmit={handleSubmit} className='space-y-4'>
-        <CardElement className='p-2 border rounded w-full' />
-        {error && <p className='text-red-500'>{error}</p>}
+    <div className="container mx-auto">
+      <h1 className="text-4xl font-semibold my-5">Checkout</h1>
+      <form onSubmit={handleSubmit} className="space-y-4">
+        <CardElement className="p-2 border rounded w-full" />
+        {error && <p className="text-red-500">{error}</p>}
         <button
           type="submit"
-          // disabled={!stripe || processing}
-          className='btn btn-neutral w-full shadow-xl text-gray-50'
+          disabled={!stripePromise || processing}
+          className="btn btn-neutral w-full shadow-xl text-gray-50"
         >
           {processing ? 'Processing...' : 'Complete Order'}
         </button>
