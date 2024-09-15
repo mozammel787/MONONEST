@@ -68,7 +68,7 @@ const Profile = () => {
     };
 
     return (
-        <div className="p-6 flex flex-col">
+        <div className="p-10 flex flex-col rounded shadow border ">
             <div className="w-full">
                 <h4 className="text-2xl font-bold mb-6">Update Personal Information</h4>
                 <form onSubmit={handleSubmit} className="space-y-4 mt-6">

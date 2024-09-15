@@ -1,68 +1,87 @@
-import { FaTruck, FaAngleDown, FaAngleUp } from 'react-icons/fa';
+import { FaCheckCircle } from 'react-icons/fa';
 import { useState, useEffect } from 'react';
+import { useAuth } from '../../Hook/useAuth';
 
 const OrderHistory = () => {
-  // const [orders, setOrders] = useState([]);
-  // const [expandedOrderId, setExpandedOrderId] = useState(null);
+  const { user } = useAuth();
+  const [orders, setOrders] = useState([]);
+  const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
 
-  // useEffect(() => {
-  //   // Replace with your API endpoint
-  //   fetch('https://your-api-endpoint.com/orders')
-  //     .then((response) => response.json())
-  //     .then((data) => setOrders(data))
-  //     .catch((error) => console.error('Error fetching orders:', error));
-  // }, []);
-
-  // const toggleDetails = (orderId) => {
-  //   setExpandedOrderId(expandedOrderId === orderId ? null : orderId);
-  // };
+  useEffect(() => {
+    if (user?.email) {
+      fetch(`${API_URL}/payment/${user.email}`)
+        .then((res) => res.json())
+        .then((data) => setOrders(data))
+        .catch((error) => console.error('Error fetching orders:', error));
+    }
+  }, [user]);
 
   return (
-    <div className="bg-white p-6 ">
+    <div className="bg-white p-6 rounded shadow border">
       <h3 className="text-2xl font-bold mb-6">Order History</h3>
 
-      {/* {orders.length === 0 ? (
+      {orders.length === 0 ? (
         <p>No orders found.</p>
       ) : (
-        orders.map((order) => ( */}
-      <div className="overflow-x-auto">
-        <table className="table">
-          {/* head */}
-          <thead>
-            <tr>
-              <th>Number ID</th>
-              <th>Dates</th>
-              <th>Status</th>
-              <th>Price</th>
-            </tr>
-          </thead>
-          <tbody>
-            {/* row 1 */}
-            <tr>
-              <th>1</th>
-              <td>Cy Ganderton</td>
-              <td>Quality Control Specialist</td>
-              <td>Blue</td>
-            </tr>
-            {/* row 2 */}
-            <tr>
-              <th>2</th>
-              <td>Hart Hagerty</td>
-              <td>Desktop Support Technician</td>
-              <td>Purple</td>
-            </tr>
-            {/* row 3 */}
-            <tr>
-              <th>3</th>
-              <td>Brice Swyre</td>
-              <td>Tax Accountant</td>
-              <td>Red</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      {/* ))
-      )} */}
+        <div className="w-full">
+          <div className="bg-white rounded-xl  overflow-y-auto">
+            <table className="w-full whitespace-nowrap">
+              <thead>
+                <tr className="h-16 w-full text-sm leading-none text-gray-800">
+                  <th className="font-normal text-left pl-4">ID</th>
+                  <th className="font-normal text-left pl-12">Date</th>
+                  <th className="font-normal text-left pl-16">Product Quantity</th>
+                  <th className="font-normal text-left pl-16">Price</th>
+                  <th className="font-normal text-left pl-16">Transaction ID</th>
+                  <th className="font-normal text-left pl-12">Payment Status</th>
+                </tr>
+              </thead>
+              <tbody className="w-full">
+                {orders.map((order, i) => {
+                  // Assuming `order.items` contains the list of items
+                  const totalQuantity = order.items?.reduce((total, item) => total + (item.quantity || 0), 0);
+
+                  return (
+                    <tr
+                      key={i}
+                      className="h-20 text-sm leading-none text-gray-800 bg-white hover:bg-gray-100 border-b border-t border-gray-100"
+                    >
+                      <td className="pl-6">
+                        <p className="text-sm font-medium leading-none text-gray-800">
+                          {i + 1}
+                        </p>
+                      </td>
+                      <td className="pl-12">
+                        <p className="text-sm font-medium leading-none text-gray-800">
+                          {new Date(order.createdAt).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+                        </p>
+                      </td>
+                      <td className="pl-24">
+                        <p className="text-sm font-medium leading-none text-gray-800">
+                          {totalQuantity}
+                        </p>
+                      </td>
+                      <td className="pl-16">
+                        <p className="text-sm font-medium leading-none text-gray-800">
+                          ${order.totalAmount}
+                        </p>
+                      </td>
+                      <td className="pl-[68px]">
+                        <p className="text-sm font-medium leading-none text-gray-800">
+                          {order.paymentIntentId}
+                        </p>
+                      </td>
+                      <td className="pl-20">
+                        <FaCheckCircle className="text-green-500 text-xl" />
+                      </td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
