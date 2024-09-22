@@ -6,7 +6,10 @@ export default {
   ],
   theme: {
     extend: {
-     
+      fontFamily: {
+        sohne: ['Sohne', 'sans-serif'],
+        satoshi: ['Satoshi', 'sans-serif'],
+      }
     },
   },
   plugins: [

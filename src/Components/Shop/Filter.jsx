@@ -4,6 +4,7 @@ import { AiOutlineControl } from 'react-icons/ai';
 const Filter = ({ categories, priceRanges, selectedCategory, setSelectedCategory, selectedPrice, setSelectedPrice }) => {
   // Include 'All Categories' option in the categories list
   const categoryOptions = ['All Categories', ...categories];
+console.log(priceRanges);
 
   return (
     <div className='w-[25%] hidden md:block'>
@@ -31,8 +32,8 @@ const Filter = ({ categories, priceRanges, selectedCategory, setSelectedCategory
       <div className='mt-10'>
         <h5 className='text-2xl font-semibold mb-4'>PRICE</h5>
         <div className="w-64">
-          {priceRanges.map((price) => (
-            <label key={price} className="flex items-center justify-between space-x-3 mb-3 cursor-pointer gap-4">
+          {priceRanges.map((price,i) => (
+            <label key={i} className="flex items-center justify-between space-x-3 mb-3 cursor-pointer gap-4">
               <span className={`flex items-center text-xl font-medium ${selectedPrice === price ? 'text-black' : 'text-gray-400'}`}>
                 {price}
               </span>

@@ -3,7 +3,6 @@ import { IoStar, IoStarHalf, IoStarOutline } from 'react-icons/io5';
 import { useDispatch } from 'react-redux';
 import { Link, useLoaderData } from 'react-router-dom';
 import ProductCarousel from '../Components/SingleProduct/ProductCarousel';
-import ProductCounter from '../Components/SingleProduct/ProductCounter';
 import ProductDetils from '../Components/SingleProduct/ProductDetils';
 import SimilearProducts from '../Components/SingleProduct/SimilearProducts';
 import { addToCart } from '../store/cartSlice';

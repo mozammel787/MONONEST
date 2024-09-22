@@ -17,7 +17,7 @@ const OrderHistory = () => {
   }, [user]);
 
   return (
-    <div className="bg-white p-6 rounded shadow border">
+    <div className="bg-white p-10 rounded shadow border">
       <h3 className="text-2xl font-bold mb-6">Order History</h3>
 
       {orders.length === 0 ? (

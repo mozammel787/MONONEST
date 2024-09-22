@@ -2,7 +2,6 @@ import { createBrowserRouter } from "react-router-dom";
 import Layout from "../Layout/Layout";
 import Home from "../page/Home";
 import Shop from "../page/Shop";
-import AboutUs from "../page/AboutUs";
 import ContactUs from "../page/ContactUs";
 import SingleProduct from "../page/SingleProduct";
 import SignUp from "../page/SignUp";
@@ -39,11 +38,6 @@ export const Router = createBrowserRouter(
                     loader: ({ params }) => fetch(`${API_URL}/product/${params.id}`)
                 },
                 {
-                    path: "about",
-                    element: <AboutUs />
-                },
-
-                {
                     path: "contact",
                     element: <ContactUs />
                 },
@@ -77,9 +71,6 @@ export const Router = createBrowserRouter(
                     path: "complete-order",
                     element: <PrivateRouter><CompleteOrder /></PrivateRouter>
                 },
-
-
-
 
             ]
         },

@@ -1,4 +1,4 @@
-import { FaUser, FaCog, FaHistory, FaHome, FaShoppingCart, FaSignOutAlt, FaCamera } from 'react-icons/fa';
+import { FaUser, FaHistory, FaSignOutAlt } from 'react-icons/fa';
 import { Link, Outlet, useNavigate } from 'react-router-dom';
 import { useAuth } from '../Hook/useAuth';
 
