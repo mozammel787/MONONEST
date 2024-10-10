@@ -7,7 +7,7 @@ import { clearCart } from '../store/cartSlice'; // Adjust the import path
 
 // Load Stripe with public key from environment variable
 const stripePromise = loadStripe(import.meta.env.VITE_STRIPE_PUBLIC_KEY);
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+const API_URL = import.meta.env.VITE_API_URL || 'https://mononest-backend.onrender.com';
 
 const Payment = ({ userInfo }) => {
   const stripe = useStripe();

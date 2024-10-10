@@ -1,0 +1,562 @@
+[
+    {
+        "_id": "66e32790e9becb4da2fbc378",
+        "name": "Light Grey Sectional Sofa",
+        "description": "A spacious light grey sectional sofa with a reversible chaise lounge.",
+        "price": 1099.99,
+        "images": [
+            "https://img.freepik.com/free-psd/living-room-with-grey-sofa-large-window_176382-335.jpg?t=st=1726161997~exp=1726165597~hmac=8feca7d98f30c3eafd722292740f139965545fe8ded5917345fbfbf2b08fc2ce&w=1380",
+            "https://img.freepik.com/free-psd/living-room-with-grey-sofa-large-window_176382-335.jpg?t=st=1726161997~exp=1726165597~hmac=8feca7d98f30c3eafd722292740f139965545fe8ded5917345fbfbf2b08fc2ce&w=1380",
+            "https://img.freepik.com/free-psd/living-room-with-grey-sofa-large-window_176382-335.jpg?t=st=1726161997~exp=1726165597~hmac=8feca7d98f30c3eafd722292740f139965545fe8ded5917345fbfbf2b08fc2ce&w=1380",
+            "https://img.freepik.com/free-psd/living-room-with-grey-sofa-large-window_176382-335.jpg?t=st=1726161997~exp=1726165597~hmac=8feca7d98f30c3eafd722292740f139965545fe8ded5917345fbfbf2b08fc2ce&w=1380"
+        ],
+        "category": "Sofas",
+        "ratings": 4.8
+    },
+    {
+        "_id": "66e32790e9becb4da2fbc37d",
+        "name": "Velvet Accent Chair",
+        "description": "A chic velvet accent chair with a tufted design and metal legs.",
+        "price": 329.99,
+        "images": [
+            "https://img.freepik.com/free-photo/velours-vintage-armchair-minimalistic-scandinavian-room-with-brick-fireplace_8353-7961.jpg?t=st=1726161680~exp=1726165280~hmac=47beb7d71a620e1d0591acf2b74f7b72dea78db433f2e64dea2c53143c23f352&w=1380",
+            "https://img.freepik.com/free-photo/velours-vintage-armchair-minimalistic-scandinavian-room-with-brick-fireplace_8353-7961.jpg?t=st=1726161680~exp=1726165280~hmac=47beb7d71a620e1d0591acf2b74f7b72dea78db433f2e64dea2c53143c23f352&w=1380",
+            "https://img.freepik.com/free-photo/velours-vintage-armchair-minimalistic-scandinavian-room-with-brick-fireplace_8353-7961.jpg?t=st=1726161680~exp=1726165280~hmac=47beb7d71a620e1d0591acf2b74f7b72dea78db433f2e64dea2c53143c23f352&w=1380",
+            "https://img.freepik.com/free-photo/velours-vintage-armchair-minimalistic-scandinavian-room-with-brick-fireplace_8353-7961.jpg?t=st=1726161680~exp=1726165280~hmac=47beb7d71a620e1d0591acf2b74f7b72dea78db433f2e64dea2c53143c23f352&w=1380"
+        ],
+        "category": "Chairs",
+        "ratings": 4.8
+    },
+    {
+        "_id": "66e32790e9becb4da2fbc371",
+        "name": "Lamp",
+        "description": "A stylish standing lamp with a flexible neck, perfect for reading or accent lighting.",
+        "price": 89.99,
+        "images": [
+            "https://i.ibb.co.com/JHYB0Lx/Lamp.png",
+            "https://i.ibb.co.com/JHYB0Lx/Lamp.png",
+            "https://i.ibb.co.com/JHYB0Lx/Lamp.png",
+            "https://i.ibb.co.com/JHYB0Lx/Lamp.png"
+        ],
+        "category": "Lighting",
+        "ratings": 4.5
+    },
+    {
+        "_id": "66e32790e9becb4da2fbc393",
+        "name": "Modern Armchair",
+        "description": "A stylish modern armchair with sleek lines and comfortable cushioning.",
+        "price": 399.99,
+        "images": [
+            "https://img.freepik.com/free-vector/beige-soft-leather-armchair-with-wooden-legs_107791-29744.jpg?t=st=1726157293~exp=1726160893~hmac=d52c313bf38b793bb8fc49622520cdd33bf138197b7879f17ea8568f784908df&w=996",
+            "https://img.freepik.com/free-vector/beige-soft-leather-armchair-with-wooden-legs_107791-29744.jpg?t=st=1726157293~exp=1726160893~hmac=d52c313bf38b793bb8fc49622520cdd33bf138197b7879f17ea8568f784908df&w=996",
+            "https://img.freepik.com/free-vector/beige-soft-leather-armchair-with-wooden-legs_107791-29744.jpg?t=st=1726157293~exp=1726160893~hmac=d52c313bf38b793bb8fc49622520cdd33bf138197b7879f17ea8568f784908df&w=996",
+            "https://img.freepik.com/free-vector/beige-soft-leather-armchair-with-wooden-legs_107791-29744.jpg?t=st=1726157293~exp=1726160893~hmac=d52c313bf38b793bb8fc49622520cdd33bf138197b7879f17ea8568f784908df&w=996"
+        ],
+        "category": "Chairs",
+        "ratings": 4.6
+    },
+    {
+        "_id": "66e32790e9becb4da2fbc386",
+        "name": "Leather Sectional Sofa",
+        "description": "A large leather sectional sofa with a chaise lounge and extra-wide seats.",
+        "price": 1499.99,
+        "images": [
+            "https://img.freepik.com/free-photo/cinematic-shot-yellow-sofa-modern-interior-room_1409-7575.jpg?t=st=1726160949~exp=1726164549~hmac=74629022ff90e826c3292520a2263825aab9db0ad69ddd4d261bc5309efc4aa7&w=1380",
+            "https://img.freepik.com/free-photo/cinematic-shot-yellow-sofa-modern-interior-room_1409-7575.jpg?t=st=1726160949~exp=1726164549~hmac=74629022ff90e826c3292520a2263825aab9db0ad69ddd4d261bc5309efc4aa7&w=1380",
+            "https://img.freepik.com/free-photo/cinematic-shot-yellow-sofa-modern-interior-room_1409-7575.jpg?t=st=1726160949~exp=1726164549~hmac=74629022ff90e826c3292520a2263825aab9db0ad69ddd4d261bc5309efc4aa7&w=1380",
+            "https://img.freepik.com/free-photo/cinematic-shot-yellow-sofa-modern-interior-room_1409-7575.jpg?t=st=1726160949~exp=1726164549~hmac=74629022ff90e826c3292520a2263825aab9db0ad69ddd4d261bc5309efc4aa7&w=1380"
+        ],
+        "category": "Sofas",
+        "ratings": 4.9
+    },
+    {
+        "_id": "66e32790e9becb4da2fbc37e",
+        "name": "Oak TV Stand",
+        "description": "A sturdy oak TV stand with storage compartments for media devices.",
+        "price": 449.99,
+        "images": [
+            "https://img.freepik.com/free-vector/realistic-hall-furniture_52683-69523.jpg?t=st=1726161601~exp=1726165201~hmac=7a07f4486c57089ef30b05b4e5ae95b05aa4fb3873df1d3ee5f33daf99e16f97&w=1380",
+            "https://img.freepik.com/free-vector/realistic-hall-furniture_52683-69523.jpg?t=st=1726161601~exp=1726165201~hmac=7a07f4486c57089ef30b05b4e5ae95b05aa4fb3873df1d3ee5f33daf99e16f97&w=1380",
+            "https://img.freepik.com/free-vector/realistic-hall-furniture_52683-69523.jpg?t=st=1726161601~exp=1726165201~hmac=7a07f4486c57089ef30b05b4e5ae95b05aa4fb3873df1d3ee5f33daf99e16f97&w=1380",
+            "https://img.freepik.com/free-vector/realistic-hall-furniture_52683-69523.jpg?t=st=1726161601~exp=1726165201~hmac=7a07f4486c57089ef30b05b4e5ae95b05aa4fb3873df1d3ee5f33daf99e16f97&w=1380"
+        ],
+        "category": "Living Room",
+        "ratings": 4.6
+    },
+    {
+        "_id": "66e32790e9becb4da2fbc36c",
+        "name": "Loveseat Sofa",
+        "description": "A comfortable two-seater loveseat sofa with plush cushions and a modern design.",
+        "price": 499.99,
+        "images": [
+            "https://i.ibb.co.com/5WZdmwk/Loveseat-Sofa.png",
+            "https://i.ibb.co.com/5WZdmwk/Loveseat-Sofa.png",
+            "https://i.ibb.co.com/5WZdmwk/Loveseat-Sofa.png",
+            "https://i.ibb.co.com/5WZdmwk/Loveseat-Sofa.png"
+        ],
+        "category": "Sofas",
+        "ratings": 5
+    },
+    {
+        "_id": "66e32790e9becb4da2fbc385",
+        "name": "Scandinavian Coffee Table",
+        "description": "A minimalist Scandinavian coffee table with a white finish and wooden legs.",
+        "price": 229.99,
+        "images": [
+            "https://img.freepik.com/free-photo/front-view-interior-room-design-concept_23-2148786434.jpg?t=st=1726161009~exp=1726164609~hmac=efa8522736b878cb8fc8d92c19b9f0667e8b2d489f6c7ba9c38a2eaee47edc22&w=740",
+            "https://img.freepik.com/free-photo/front-view-interior-room-design-concept_23-2148786434.jpg?t=st=1726161009~exp=1726164609~hmac=efa8522736b878cb8fc8d92c19b9f0667e8b2d489f6c7ba9c38a2eaee47edc22&w=740",
+            "https://img.freepik.com/free-photo/front-view-interior-room-design-concept_23-2148786434.jpg?t=st=1726161009~exp=1726164609~hmac=efa8522736b878cb8fc8d92c19b9f0667e8b2d489f6c7ba9c38a2eaee47edc22&w=740",
+            "https://img.freepik.com/free-photo/front-view-interior-room-design-concept_23-2148786434.jpg?t=st=1726161009~exp=1726164609~hmac=efa8522736b878cb8fc8d92c19b9f0667e8b2d489f6c7ba9c38a2eaee47edc22&w=740"
+        ],
+        "category": "Tables",
+        "ratings": 4.7
+    },
+    {
+        "_id": "66e32790e9becb4da2fbc377",
+        "name": "Glass Coffee Table",
+        "description": "A contemporary glass coffee table with a chrome frame, perfect for modern interiors.",
+        "price": 199.99,
+        "images": [
+            "https://img.freepik.com/free-psd/sofa-table-isolated-transparent-background_191095-14152.jpg?t=st=1726157451~exp=1726161051~hmac=9f3b4227daaa15a20b577289a190841d215abdbee341be43df86a89975c7584c&w=740",
+            "https://img.freepik.com/free-psd/sofa-table-isolated-transparent-background_191095-14152.jpg?t=st=1726157451~exp=1726161051~hmac=9f3b4227daaa15a20b577289a190841d215abdbee341be43df86a89975c7584c&w=740",
+            "https://img.freepik.com/free-psd/sofa-table-isolated-transparent-background_191095-14152.jpg?t=st=1726157451~exp=1726161051~hmac=9f3b4227daaa15a20b577289a190841d215abdbee341be43df86a89975c7584c&w=740",
+            "https://img.freepik.com/free-psd/sofa-table-isolated-transparent-background_191095-14152.jpg?t=st=1726157451~exp=1726161051~hmac=9f3b4227daaa15a20b577289a190841d215abdbee341be43df86a89975c7584c&w=740"
+        ],
+        "category": "Tables",
+        "ratings": 4.4
+    },
+    {
+        "_id": "66e32790e9becb4da2fbc36e",
+        "name": "Table Lamp",
+        "description": "Modern table lamp with a sleek metal base and a fabric shade, perfect for any room.",
+        "price": 79.99,
+        "images": [
+            "https://i.ibb.co.com/3sbHZZd/Table-Lamp.png",
+            "https://i.ibb.co.com/3sbHZZd/Table-Lamp.png",
+            "https://i.ibb.co.com/3sbHZZd/Table-Lamp.png",
+            "https://i.ibb.co.com/3sbHZZd/Table-Lamp.png"
+        ],
+        "category": "Lighting",
+        "ratings": 4.3
+    },
+    {
+        "_id": "66e32790e9becb4da2fbc37a",
+        "name": "Leather Armchair",
+        "description": "A high-quality leather armchair with a deep seat and supportive back.",
+        "price": 599.99,
+        "images": [
+            "https://img.freepik.com/free-psd/view-sofa-interior-design-decor_23-2151772819.jpg?t=st=1726161853~exp=1726165453~hmac=858cdcd1f0f237178f8977cd97ef2d619ce976969ea5fc7f0703eecdba4f855b&w=1380",
+            "https://img.freepik.com/free-psd/view-sofa-interior-design-decor_23-2151772819.jpg?t=st=1726161853~exp=1726165453~hmac=858cdcd1f0f237178f8977cd97ef2d619ce976969ea5fc7f0703eecdba4f855b&w=1380",
+            "https://img.freepik.com/free-psd/view-sofa-interior-design-decor_23-2151772819.jpg?t=st=1726161853~exp=1726165453~hmac=858cdcd1f0f237178f8977cd97ef2d619ce976969ea5fc7f0703eecdba4f855b&w=1380",
+            "https://img.freepik.com/free-psd/view-sofa-interior-design-decor_23-2151772819.jpg?t=st=1726161853~exp=1726165453~hmac=858cdcd1f0f237178f8977cd97ef2d619ce976969ea5fc7f0703eecdba4f855b&w=1380"
+        ],
+        "category": "Chairs",
+        "ratings": 4.5
+    },
+    {
+        "_id": "66e32790e9becb4da2fbc387",
+        "name": "Teak Outdoor Dining Set",
+        "description": "A high-quality teak outdoor dining set with 6 chairs and a rectangular table.",
+        "price": 1299.99,
+        "images": [
+            "https://img.freepik.com/free-photo/empty-chair-table_1339-4300.jpg?t=st=1726160851~exp=1726164451~hmac=3be073498a7bf2e6ed80a39ac019564900c3421249f95941e0821149da7532a8&w=1380",
+            "https://img.freepik.com/free-photo/empty-chair-table_1339-4300.jpg?t=st=1726160851~exp=1726164451~hmac=3be073498a7bf2e6ed80a39ac019564900c3421249f95941e0821149da7532a8&w=1380",
+            "https://img.freepik.com/free-photo/empty-chair-table_1339-4300.jpg?t=st=1726160851~exp=1726164451~hmac=3be073498a7bf2e6ed80a39ac019564900c3421249f95941e0821149da7532a8&w=1380",
+            "https://img.freepik.com/free-photo/empty-chair-table_1339-4300.jpg?t=st=1726160851~exp=1726164451~hmac=3be073498a7bf2e6ed80a39ac019564900c3421249f95941e0821149da7532a8&w=1380"
+        ],
+        "category": "Outdoor",
+        "ratings": 4.8
+    },
+    {
+        "_id": "66e32790e9becb4da2fbc389",
+        "name": "Wall-Mounted Bookshelf",
+        "description": "A sleek wall-mounted bookshelf with multiple compartments for a modern look.",
+        "price": 179.99,
+        "images": [
+            "https://img.freepik.com/free-photo/interior-design-with-armchair-potted-plant_23-2149427983.jpg?t=st=1726158253~exp=1726161853~hmac=8f998fec91b65a397b01baaab760b0ab5c9716e613e73559221f7d7f8d3215b8&w=740",
+            "https://img.freepik.com/free-photo/interior-design-with-armchair-potted-plant_23-2149427983.jpg?t=st=1726158253~exp=1726161853~hmac=8f998fec91b65a397b01baaab760b0ab5c9716e613e73559221f7d7f8d3215b8&w=740",
+            "https://img.freepik.com/free-photo/interior-design-with-armchair-potted-plant_23-2149427983.jpg?t=st=1726158253~exp=1726161853~hmac=8f998fec91b65a397b01baaab760b0ab5c9716e613e73559221f7d7f8d3215b8&w=740",
+            "https://img.freepik.com/free-photo/interior-design-with-armchair-potted-plant_23-2149427983.jpg?t=st=1726158253~exp=1726161853~hmac=8f998fec91b65a397b01baaab760b0ab5c9716e613e73559221f7d7f8d3215b8&w=740"
+        ],
+        "category": "Storage",
+        "ratings": 4.6
+    },
+    {
+        "_id": "66e32790e9becb4da2fbc375",
+        "name": "Modern Armchair",
+        "description": "A stylish modern armchair with sleek lines and comfortable cushioning.",
+        "price": 399.99,
+        "images": [
+            "https://img.freepik.com/free-vector/beige-soft-leather-armchair-with-wooden-legs_107791-29744.jpg?t=st=1726157293~exp=1726160893~hmac=d52c313bf38b793bb8fc49622520cdd33bf138197b7879f17ea8568f784908df&w=996",
+            "https://img.freepik.com/free-vector/beige-soft-leather-armchair-with-wooden-legs_107791-29744.jpg?t=st=1726157293~exp=1726160893~hmac=d52c313bf38b793bb8fc49622520cdd33bf138197b7879f17ea8568f784908df&w=996",
+            "https://img.freepik.com/free-vector/beige-soft-leather-armchair-with-wooden-legs_107791-29744.jpg?t=st=1726157293~exp=1726160893~hmac=d52c313bf38b793bb8fc49622520cdd33bf138197b7879f17ea8568f784908df&w=996",
+            "https://img.freepik.com/free-vector/beige-soft-leather-armchair-with-wooden-legs_107791-29744.jpg?t=st=1726157293~exp=1726160893~hmac=d52c313bf38b793bb8fc49622520cdd33bf138197b7879f17ea8568f784908df&w=996"
+        ],
+        "category": "Chairs",
+        "ratings": 4.6
+    },
+    {
+        "_id": "66e32790e9becb4da2fbc38d",
+        "name": "Mid-Century Dining Chair",
+        "description": "A mid-century modern dining chair with a wooden frame and upholstered seat.",
+        "price": 129.99,
+        "images": [
+            "https://img.freepik.com/free-photo/vintage-furniture_74190-4033.jpg?t=st=1726157826~exp=1726161426~hmac=b7bdd477bbb3f930e5c24a65d3523c64c87cbe882e503eddd0d5b9ecb4d19051&w=740",
+            "https://img.freepik.com/free-photo/vintage-furniture_74190-4033.jpg?t=st=1726157826~exp=1726161426~hmac=b7bdd477bbb3f930e5c24a65d3523c64c87cbe882e503eddd0d5b9ecb4d19051&w=740",
+            "https://img.freepik.com/free-photo/vintage-furniture_74190-4033.jpg?t=st=1726157826~exp=1726161426~hmac=b7bdd477bbb3f930e5c24a65d3523c64c87cbe882e503eddd0d5b9ecb4d19051&w=740",
+            "https://img.freepik.com/free-photo/vintage-furniture_74190-4033.jpg?t=st=1726157826~exp=1726161426~hmac=b7bdd477bbb3f930e5c24a65d3523c64c87cbe882e503eddd0d5b9ecb4d19051&w=740"
+        ],
+        "category": "Dining",
+        "ratings": 4.5
+    },
+    {
+        "_id": "66e32790e9becb4da2fbc38e",
+        "name": "Round Marble Coffee Table",
+        "description": "A round marble coffee table with a sleek metal base, perfect for modern interiors.",
+        "price": 399.99,
+        "images": [
+            "https://img.freepik.com/free-photo/ornate-table-art-nouveau-style_23-2150975633.jpg?t=st=1726157679~exp=1726161279~hmac=4c7de49bae3e012aca3c64871512625a85c6137246f4010feccba786274a4d80&w=740",
+            "https://img.freepik.com/free-photo/ornate-table-art-nouveau-style_23-2150975633.jpg?t=st=1726157679~exp=1726161279~hmac=4c7de49bae3e012aca3c64871512625a85c6137246f4010feccba786274a4d80&w=740",
+            "https://img.freepik.com/free-photo/ornate-table-art-nouveau-style_23-2150975633.jpg?t=st=1726157679~exp=1726161279~hmac=4c7de49bae3e012aca3c64871512625a85c6137246f4010feccba786274a4d80&w=740",
+            "https://img.freepik.com/free-photo/ornate-table-art-nouveau-style_23-2150975633.jpg?t=st=1726157679~exp=1726161279~hmac=4c7de49bae3e012aca3c64871512625a85c6137246f4010feccba786274a4d80&w=740"
+        ],
+        "category": "Tables",
+        "ratings": 4.8
+    },
+    {
+        "_id": "66e32790e9becb4da2fbc373",
+        "name": "Wooden Coffee Table",
+        "description": "A sturdy wooden coffee table with a rustic finish and ample storage underneath.",
+        "price": 299.99,
+        "images": [
+            "https://img.freepik.com/free-psd/close-up-art-deco-table-isolated_23-2151657086.jpg?t=st=1726157116~exp=1726160716~hmac=dd1705bb5d3264e32ccd1d325346c1d39d22d7478597a38a698dfd6b83487e8a&w=740",
+            "https://img.freepik.com/free-psd/close-up-art-deco-table-isolated_23-2151657086.jpg?t=st=1726157116~exp=1726160716~hmac=dd1705bb5d3264e32ccd1d325346c1d39d22d7478597a38a698dfd6b83487e8a&w=740",
+            "https://img.freepik.com/free-psd/close-up-art-deco-table-isolated_23-2151657086.jpg?t=st=1726157116~exp=1726160716~hmac=dd1705bb5d3264e32ccd1d325346c1d39d22d7478597a38a698dfd6b83487e8a&w=740",
+            "https://img.freepik.com/free-psd/close-up-art-deco-table-isolated_23-2151657086.jpg?t=st=1726157116~exp=1726160716~hmac=dd1705bb5d3264e32ccd1d325346c1d39d22d7478597a38a698dfd6b83487e8a&w=740"
+        ],
+        "category": "Tables",
+        "ratings": 4.7
+    },
+    {
+        "_id": "66e32790e9becb4da2fbc36f",
+        "name": "White Drawer Unit",
+        "description": "A spacious white drawer unit with 5 compartments, ideal for bedroom or office storage.",
+        "price": 249.99,
+        "images": [
+            "https://i.ibb.co.com/DfG481z/White-Drawer-unit.png",
+            "https://i.ibb.co.com/DfG481z/White-Drawer-unit.png",
+            "https://i.ibb.co.com/DfG481z/White-Drawer-unit.png",
+            "https://i.ibb.co.com/DfG481z/White-Drawer-unit.png"
+        ],
+        "category": "Storage",
+        "ratings": 4.6
+    },
+    {
+        "_id": "66e32790e9becb4da2fbc382",
+        "name": "Glass Display Cabinet",
+        "description": "A tall glass display cabinet with LED lighting, perfect for showcasing collectibles.",
+        "price": 599.99,
+        "images": [
+            "https://img.freepik.com/free-photo/assortment-beauty-products-arranged-shelf_23-2150718102.jpg?t=st=1726161301~exp=1726164901~hmac=3f21bc790d6f8b099618f7c55df41028219825ec2239eb1cdb523caebfbd8ca2&w=740",
+            "https://img.freepik.com/free-photo/assortment-beauty-products-arranged-shelf_23-2150718102.jpg?t=st=1726161301~exp=1726164901~hmac=3f21bc790d6f8b099618f7c55df41028219825ec2239eb1cdb523caebfbd8ca2&w=740",
+            "https://img.freepik.com/free-photo/assortment-beauty-products-arranged-shelf_23-2150718102.jpg?t=st=1726161301~exp=1726164901~hmac=3f21bc790d6f8b099618f7c55df41028219825ec2239eb1cdb523caebfbd8ca2&w=740",
+            "https://img.freepik.com/free-photo/assortment-beauty-products-arranged-shelf_23-2150718102.jpg?t=st=1726161301~exp=1726164901~hmac=3f21bc790d6f8b099618f7c55df41028219825ec2239eb1cdb523caebfbd8ca2&w=740"
+        ],
+        "category": "Storage",
+        "ratings": 4.7
+    },
+    {
+        "_id": "66e32790e9becb4da2fbc376",
+        "name": "Dining Table Set",
+        "description": "A beautiful dining table set with 4 cushioned chairs, perfect for family meals.",
+        "price": 799.99,
+        "images": [
+            "https://img.freepik.com/free-vector/booth-table-chairs-made-from-white-plastic_107791-26178.jpg?t=st=1726157386~exp=1726160986~hmac=9cd7ef2b69723af553271684da843ef24600dfd38d3c0b7473a8f1bcaaa5a2c3&w=1060",
+            "https://img.freepik.com/free-vector/booth-table-chairs-made-from-white-plastic_107791-26178.jpg?t=st=1726157386~exp=1726160986~hmac=9cd7ef2b69723af553271684da843ef24600dfd38d3c0b7473a8f1bcaaa5a2c3&w=1060",
+            "https://img.freepik.com/free-vector/booth-table-chairs-made-from-white-plastic_107791-26178.jpg?t=st=1726157386~exp=1726160986~hmac=9cd7ef2b69723af553271684da843ef24600dfd38d3c0b7473a8f1bcaaa5a2c3&w=1060",
+            "https://img.freepik.com/free-vector/booth-table-chairs-made-from-white-plastic_107791-26178.jpg?t=st=1726157386~exp=1726160986~hmac=9cd7ef2b69723af553271684da843ef24600dfd38d3c0b7473a8f1bcaaa5a2c3&w=1060"
+        ],
+        "category": "Dining",
+        "ratings": 4.7
+    },
+    {
+        "_id": "66e32790e9becb4da2fbc37c",
+        "name": "White Bookshelf",
+        "description": "A modern white bookshelf with multiple shelves, perfect for storage and display.",
+        "price": 219.99,
+        "images": [
+            "https://img.freepik.com/free-photo/modern-bright-bookshelf-with-decoration_23-2148238561.jpg?t=st=1726161738~exp=1726165338~hmac=f3d0dd040b66c8c1f2aa45f043f86771d0a0a6d7adfe232c136f3b3e316cbfaf&w=1380",
+            "https://img.freepik.com/free-photo/modern-bright-bookshelf-with-decoration_23-2148238561.jpg?t=st=1726161738~exp=1726165338~hmac=f3d0dd040b66c8c1f2aa45f043f86771d0a0a6d7adfe232c136f3b3e316cbfaf&w=1380",
+            "https://img.freepik.com/free-photo/modern-bright-bookshelf-with-decoration_23-2148238561.jpg?t=st=1726161738~exp=1726165338~hmac=f3d0dd040b66c8c1f2aa45f043f86771d0a0a6d7adfe232c136f3b3e316cbfaf&w=1380",
+            "https://img.freepik.com/free-photo/modern-bright-bookshelf-with-decoration_23-2148238561.jpg?t=st=1726161738~exp=1726165338~hmac=f3d0dd040b66c8c1f2aa45f043f86771d0a0a6d7adfe232c136f3b3e316cbfaf&w=1380"
+        ],
+        "category": "Storage",
+        "ratings": 4.6
+    },
+    {
+        "_id": "66e32790e9becb4da2fbc380",
+        "name": "Modern Bar Stool",
+        "description": "A sleek modern bar stool with a leather seat and adjustable height.",
+        "price": 159.99,
+        "images": [
+            "https://img.freepik.com/free-photo/closeup-armless-chair-with-concave-back-loft-style-furniture_181624-25825.jpg?t=st=1726161397~exp=1726164997~hmac=a0043b42fbec402b588cf6082d85fcdbdf7898d8527b3b740a6ce599451f2f9a&w=1380",
+            "https://img.freepik.com/free-photo/closeup-armless-chair-with-concave-back-loft-style-furniture_181624-25825.jpg?t=st=1726161397~exp=1726164997~hmac=a0043b42fbec402b588cf6082d85fcdbdf7898d8527b3b740a6ce599451f2f9a&w=1380",
+            "https://img.freepik.com/free-photo/closeup-armless-chair-with-concave-back-loft-style-furniture_181624-25825.jpg?t=st=1726161397~exp=1726164997~hmac=a0043b42fbec402b588cf6082d85fcdbdf7898d8527b3b740a6ce599451f2f9a&w=1380",
+            "https://img.freepik.com/free-photo/closeup-armless-chair-with-concave-back-loft-style-furniture_181624-25825.jpg?t=st=1726161397~exp=1726164997~hmac=a0043b42fbec402b588cf6082d85fcdbdf7898d8527b3b740a6ce599451f2f9a&w=1380"
+        ],
+        "category": "Dining",
+        "ratings": 4.5
+    },
+    {
+        "_id": "66e32790e9becb4da2fbc370",
+        "name": "Black Tray Table",
+        "description": "A minimalist black tray table with foldable legs, easy to store and perfect for small spaces.",
+        "price": 69.99,
+        "images": [
+            "https://i.ibb.co.com/G3r4yfg/Black-Tray-table.png",
+            "https://i.ibb.co.com/G3r4yfg/Black-Tray-table.png",
+            "https://i.ibb.co.com/G3r4yfg/Black-Tray-table.png",
+            "https://i.ibb.co.com/G3r4yfg/Black-Tray-table.png"
+        ],
+        "category": "Tables",
+        "ratings": 4.4
+    },
+    {
+        "_id": "66e32790e9becb4da2fbc38a",
+        "name": "Gold Accent Mirror",
+        "description": "A large round gold accent mirror with a stylish frame, perfect for entryways.",
+        "price": 199.99,
+        "images": [
+            "https://img.freepik.com/free-photo/vertical-shot-yellow-flowers-glass-jar-reflected-mirror_181624-13997.jpg?t=st=1726158103~exp=1726161703~hmac=a6ee3850d644a8eb5b3bcc85f2e2591973af6366af6b948f7898fbb72b2831d7&w=740",
+            "https://img.freepik.com/free-photo/vertical-shot-yellow-flowers-glass-jar-reflected-mirror_181624-13997.jpg?t=st=1726158103~exp=1726161703~hmac=a6ee3850d644a8eb5b3bcc85f2e2591973af6366af6b948f7898fbb72b2831d7&w=740",
+            "https://img.freepik.com/free-photo/vertical-shot-yellow-flowers-glass-jar-reflected-mirror_181624-13997.jpg?t=st=1726158103~exp=1726161703~hmac=a6ee3850d644a8eb5b3bcc85f2e2591973af6366af6b948f7898fbb72b2831d7&w=740",
+            "https://img.freepik.com/free-photo/vertical-shot-yellow-flowers-glass-jar-reflected-mirror_181624-13997.jpg?t=st=1726158103~exp=1726161703~hmac=a6ee3850d644a8eb5b3bcc85f2e2591973af6366af6b948f7898fbb72b2831d7&w=740"
+        ],
+        "category": "Home Decor",
+        "ratings": 4.8
+    },
+    {
+        "_id": "66e32790e9becb4da2fbc384",
+        "name": "Wicker Outdoor Chair",
+        "description": "A durable wicker outdoor chair with weather-resistant cushions.",
+        "price": 179.99,
+        "images": [
+            "https://img.freepik.com/free-photo/rustic-patio-furniture-house-deck-with-vegetation_23-2150698304.jpg?t=st=1726161126~exp=1726164726~hmac=bc7e0f2eade3416d6ff7f188d5c53aa429e18c84766dffeb874c3fcba47bde99&w=740",
+            "https://img.freepik.com/free-photo/rustic-patio-furniture-house-deck-with-vegetation_23-2150698304.jpg?t=st=1726161126~exp=1726164726~hmac=bc7e0f2eade3416d6ff7f188d5c53aa429e18c84766dffeb874c3fcba47bde99&w=740",
+            "https://img.freepik.com/free-photo/rustic-patio-furniture-house-deck-with-vegetation_23-2150698304.jpg?t=st=1726161126~exp=1726164726~hmac=bc7e0f2eade3416d6ff7f188d5c53aa429e18c84766dffeb874c3fcba47bde99&w=740",
+            "https://img.freepik.com/free-photo/rustic-patio-furniture-house-deck-with-vegetation_23-2150698304.jpg?t=st=1726161126~exp=1726164726~hmac=bc7e0f2eade3416d6ff7f188d5c53aa429e18c84766dffeb874c3fcba47bde99&w=740"
+        ],
+        "category": "Outdoor",
+        "ratings": 4.6
+    },
+    {
+        "_id": "66e32790e9becb4da2fbc38b",
+        "name": "Vintage Bed Frame",
+        "description": "A vintage-style bed frame with ornate metalwork and a sturdy design.",
+        "price": 699.99,
+        "images": [
+            "https://img.freepik.com/free-photo/beautiful-castle-interior-design_23-2151010534.jpg?t=st=1726158047~exp=1726161647~hmac=12b92c6eab953719e028702271eec216555a580bf30ed741b5fb30063649d4a1&w=740",
+            "https://img.freepik.com/free-photo/beautiful-castle-interior-design_23-2151010534.jpg?t=st=1726158047~exp=1726161647~hmac=12b92c6eab953719e028702271eec216555a580bf30ed741b5fb30063649d4a1&w=740",
+            "https://img.freepik.com/free-photo/beautiful-castle-interior-design_23-2151010534.jpg?t=st=1726158047~exp=1726161647~hmac=12b92c6eab953719e028702271eec216555a580bf30ed741b5fb30063649d4a1&w=740",
+            "https://img.freepik.com/free-photo/beautiful-castle-interior-design_23-2151010534.jpg?t=st=1726158047~exp=1726161647~hmac=12b92c6eab953719e028702271eec216555a580bf30ed741b5fb30063649d4a1&w=740"
+        ],
+        "category": "Bedroom",
+        "ratings": 4.7
+    },
+    {
+        "_id": "66e32790e9becb4da2fbc383",
+        "name": "Grey Storage Ottoman",
+        "description": "A versatile grey ottoman with hidden storage inside, perfect for small spaces.",
+        "price": 149.99,
+        "images": [
+            "https://img.freepik.com/free-photo/still-life-shoe-rack-indoors_23-2150960714.jpg?t=st=1726161177~exp=1726164777~hmac=5cdc3a5ccc2a88f8b9afee1d7e697cda2b2626dbac7b9ad323e4ac8211ec54fb&w=740",
+            "https://img.freepik.com/free-photo/still-life-shoe-rack-indoors_23-2150960714.jpg?t=st=1726161177~exp=1726164777~hmac=5cdc3a5ccc2a88f8b9afee1d7e697cda2b2626dbac7b9ad323e4ac8211ec54fb&w=740",
+            "https://img.freepik.com/free-photo/still-life-shoe-rack-indoors_23-2150960714.jpg?t=st=1726161177~exp=1726164777~hmac=5cdc3a5ccc2a88f8b9afee1d7e697cda2b2626dbac7b9ad323e4ac8211ec54fb&w=740",
+            "https://img.freepik.com/free-photo/still-life-shoe-rack-indoors_23-2150960714.jpg?t=st=1726161177~exp=1726164777~hmac=5cdc3a5ccc2a88f8b9afee1d7e697cda2b2626dbac7b9ad323e4ac8211ec54fb&w=740"
+        ],
+        "category": "Living Room",
+        "ratings": 4.5
+    },
+    {
+        "_id": "66e32790e9becb4da2fbc38c",
+        "name": "Light Grey Loveseat",
+        "description": "A compact light grey loveseat with deep cushions and a modern silhouette.",
+        "price": 549.99,
+        "images": [
+            "https://img.freepik.com/free-psd/view-sofa-interior-design-decor_23-2151772758.jpg?t=st=1726157898~exp=1726161498~hmac=df87b21df76877562de150693a7acda7062eb501e4775451a0d3fad9e5a76953&w=1380",
+            "https://img.freepik.com/free-psd/view-sofa-interior-design-decor_23-2151772758.jpg?t=st=1726157898~exp=1726161498~hmac=df87b21df76877562de150693a7acda7062eb501e4775451a0d3fad9e5a76953&w=1380",
+            "https://img.freepik.com/free-psd/view-sofa-interior-design-decor_23-2151772758.jpg?t=st=1726157898~exp=1726161498~hmac=df87b21df76877562de150693a7acda7062eb501e4775451a0d3fad9e5a76953&w=1380",
+            "https://img.freepik.com/free-psd/view-sofa-interior-design-decor_23-2151772758.jpg?t=st=1726157898~exp=1726161498~hmac=df87b21df76877562de150693a7acda7062eb501e4775451a0d3fad9e5a76953&w=1380"
+        ],
+        "category": "Sofas",
+        "ratings": 4.6
+    },
+    {
+        "_id": "66e32790e9becb4da2fbc38f",
+        "name": "White Shoe Cabinet",
+        "description": "A white shoe cabinet with multiple compartments and a modern design.",
+        "price": 199.99,
+        "images": [
+            "https://img.freepik.com/free-vector/realistic-wardrobe-with-clothes_52683-72860.jpg?t=st=1726157558~exp=1726161158~hmac=95bb6330af8fe6bbae6234a5c1e6274492d3373849ee023fcdcad4e1c3b031ce&w=1380",
+            "https://img.freepik.com/free-vector/realistic-wardrobe-with-clothes_52683-72860.jpg?t=st=1726157558~exp=1726161158~hmac=95bb6330af8fe6bbae6234a5c1e6274492d3373849ee023fcdcad4e1c3b031ce&w=1380",
+            "https://img.freepik.com/free-vector/realistic-wardrobe-with-clothes_52683-72860.jpg?t=st=1726157558~exp=1726161158~hmac=95bb6330af8fe6bbae6234a5c1e6274492d3373849ee023fcdcad4e1c3b031ce&w=1380",
+            "https://img.freepik.com/free-vector/realistic-wardrobe-with-clothes_52683-72860.jpg?t=st=1726157558~exp=1726161158~hmac=95bb6330af8fe6bbae6234a5c1e6274492d3373849ee023fcdcad4e1c3b031ce&w=1380"
+        ],
+        "category": "Storage",
+        "ratings": 4.7
+    },
+    {
+        "_id": "66e32790e9becb4da2fbc37f",
+        "name": "Adjustable Desk",
+        "description": "A height-adjustable desk with a spacious surface and modern design.",
+        "price": 299.99,
+        "images": [
+            "https://img.freepik.com/free-photo/working-from-home-ergonomic-workstation_23-2149132359.jpg?t=st=1726161481~exp=1726165081~hmac=e6e8c093de1a175a52aecac3f089abdc367540160897384df522a61062804f6b&w=1380",
+            "https://img.freepik.com/free-photo/working-from-home-ergonomic-workstation_23-2149132359.jpg?t=st=1726161481~exp=1726165081~hmac=e6e8c093de1a175a52aecac3f089abdc367540160897384df522a61062804f6b&w=1380",
+            "https://img.freepik.com/free-photo/working-from-home-ergonomic-workstation_23-2149132359.jpg?t=st=1726161481~exp=1726165081~hmac=e6e8c093de1a175a52aecac3f089abdc367540160897384df522a61062804f6b&w=1380",
+            "https://img.freepik.com/free-photo/working-from-home-ergonomic-workstation_23-2149132359.jpg?t=st=1726161481~exp=1726165081~hmac=e6e8c093de1a175a52aecac3f089abdc367540160897384df522a61062804f6b&w=1380"
+        ],
+        "category": "Office",
+        "ratings": 4.7
+    },
+    {
+        "_id": "66e32790e9becb4da2fbc390",
+        "name": "Linen Throw Blanket",
+        "description": "A soft linen throw blanket with a fringed edge, perfect for cozying up.",
+        "price": 59.99,
+        "images": [
+            "https://img.freepik.com/free-psd/blanket-isolated-transparent-background_191095-10098.jpg?t=st=1726157509~exp=1726161109~hmac=3ba5dc6c19ceea27d4d3388a2c80b06a34308c11d5f7799ccd1f901136b0103d&w=740",
+            "https://img.freepik.com/free-psd/blanket-isolated-transparent-background_191095-10098.jpg?t=st=1726157509~exp=1726161109~hmac=3ba5dc6c19ceea27d4d3388a2c80b06a34308c11d5f7799ccd1f901136b0103d&w=740",
+            "https://img.freepik.com/free-psd/blanket-isolated-transparent-background_191095-10098.jpg?t=st=1726157509~exp=1726161109~hmac=3ba5dc6c19ceea27d4d3388a2c80b06a34308c11d5f7799ccd1f901136b0103d&w=740",
+            "https://img.freepik.com/free-psd/blanket-isolated-transparent-background_191095-10098.jpg?t=st=1726157509~exp=1726161109~hmac=3ba5dc6c19ceea27d4d3388a2c80b06a34308c11d5f7799ccd1f901136b0103d&w=740"
+        ],
+        "category": "Home Decor",
+        "ratings": 4.6
+    },
+    {
+        "_id": "66e32790e9becb4da2fbc372",
+        "name": "Light Beige Pillow",
+        "description": "A soft and plush light beige pillow made from high-quality cotton, ideal for comfort and style.",
+        "price": 29.99,
+        "images": [
+            "https://i.ibb.co.com/HdYBbH0/Light-Beige-Pillow.png",
+            "https://i.ibb.co.com/HdYBbH0/Light-Beige-Pillow.png",
+            "https://i.ibb.co.com/HdYBbH0/Light-Beige-Pillow.png",
+            "https://i.ibb.co.com/HdYBbH0/Light-Beige-Pillow.png"
+        ],
+        "category": "Home Decor",
+        "ratings": 4.8
+    },
+    {
+        "_id": "66e32790e9becb4da2fbc388",
+        "name": "Velvet Chaise Lounge",
+        "description": "A luxurious velvet chaise lounge with tufted details and elegant legs.",
+        "price": 799.99,
+        "images": [
+            "https://img.freepik.com/free-photo/blue-chair-is-shown-photo_505751-3816.jpg?t=st=1726158322~exp=1726161922~hmac=260d6e3237da608eee5a872ffb1f492a652d3e89d60034cccb3f00ad10f8db62&w=1380",
+            "https://img.freepik.com/free-photo/blue-chair-is-shown-photo_505751-3816.jpg?t=st=1726158322~exp=1726161922~hmac=260d6e3237da608eee5a872ffb1f492a652d3e89d60034cccb3f00ad10f8db62&w=1380",
+            "https://img.freepik.com/free-photo/blue-chair-is-shown-photo_505751-3816.jpg?t=st=1726158322~exp=1726161922~hmac=260d6e3237da608eee5a872ffb1f492a652d3e89d60034cccb3f00ad10f8db62&w=1380",
+            "https://img.freepik.com/free-photo/blue-chair-is-shown-photo_505751-3816.jpg?t=st=1726158322~exp=1726161922~hmac=260d6e3237da608eee5a872ffb1f492a652d3e89d60034cccb3f00ad10f8db62&w=1380"
+        ],
+        "category": "Living Room",
+        "ratings": 4.9
+    },
+    {
+        "_id": "66e32790e9becb4da2fbc392",
+        "name": "Grey Recliner Sofa",
+        "description": "A plush grey recliner sofa with adjustable backrests and footrests, perfect for lounging.",
+        "price": 899.99,
+        "images": [
+            "https://img.freepik.com/free-photo/grey-comfortable-armchair-isolated-white-background_181624-25295.jpg?t=st=1726157172~exp=1726160772~hmac=5a9b0ce18d50ff1e9619a66fa5acdeed539369285ddd5b8427985df99cd6ddaa&w=740",
+            "https://img.freepik.com/free-photo/grey-comfortable-armchair-isolated-white-background_181624-25295.jpg?t=st=1726157172~exp=1726160772~hmac=5a9b0ce18d50ff1e9619a66fa5acdeed539369285ddd5b8427985df99cd6ddaa&w=740",
+            "https://img.freepik.com/free-photo/grey-comfortable-armchair-isolated-white-background_181624-25295.jpg?t=st=1726157172~exp=1726160772~hmac=5a9b0ce18d50ff1e9619a66fa5acdeed539369285ddd5b8427985df99cd6ddaa&w=740",
+            "https://img.freepik.com/free-photo/grey-comfortable-armchair-isolated-white-background_181624-25295.jpg?t=st=1726157172~exp=1726160772~hmac=5a9b0ce18d50ff1e9619a66fa5acdeed539369285ddd5b8427985df99cd6ddaa&w=740"
+        ],
+        "category": "Sofas",
+        "ratings": 4.9
+    },
+    {
+        "_id": "66e32790e9becb4da2fbc36d",
+        "name": "Luxury Sofa",
+        "description": "A high-end luxury sofa with premium leather upholstery and adjustable headrests.",
+        "price": 1299.99,
+        "images": [
+            "https://i.ibb.co.com/tcv3Cmt/Luxury-Sofa.png",
+            "https://i.ibb.co.com/tcv3Cmt/Luxury-Sofa.png",
+            "https://i.ibb.co.com/tcv3Cmt/Luxury-Sofa.png",
+            "https://i.ibb.co.com/tcv3Cmt/Luxury-Sofa.png"
+        ],
+        "category": "Sofas",
+        "ratings": 4.7
+    },
+    {
+        "_id": "66e32790e9becb4da2fbc374",
+        "name": "Grey Recliner Sofa",
+        "description": "A plush grey recliner sofa with adjustable backrests and footrests, perfect for lounging.",
+        "price": 899.99,
+        "images": [
+            "https://img.freepik.com/free-photo/grey-comfortable-armchair-isolated-white-background_181624-25295.jpg?t=st=1726157172~exp=1726160772~hmac=5a9b0ce18d50ff1e9619a66fa5acdeed539369285ddd5b8427985df99cd6ddaa&w=740",
+            "https://img.freepik.com/free-photo/grey-comfortable-armchair-isolated-white-background_181624-25295.jpg?t=st=1726157172~exp=1726160772~hmac=5a9b0ce18d50ff1e9619a66fa5acdeed539369285ddd5b8427985df99cd6ddaa&w=740",
+            "https://img.freepik.com/free-photo/grey-comfortable-armchair-isolated-white-background_181624-25295.jpg?t=st=1726157172~exp=1726160772~hmac=5a9b0ce18d50ff1e9619a66fa5acdeed539369285ddd5b8427985df99cd6ddaa&w=740",
+            "https://img.freepik.com/free-photo/grey-comfortable-armchair-isolated-white-background_181624-25295.jpg?t=st=1726157172~exp=1726160772~hmac=5a9b0ce18d50ff1e9619a66fa5acdeed539369285ddd5b8427985df99cd6ddaa&w=740"
+        ],
+        "category": "Sofas",
+        "ratings": 4.9
+    },
+    {
+        "_id": "66e32790e9becb4da2fbc379",
+        "name": "Marble Console Table",
+        "description": "A luxurious marble console table with gold accents, perfect for entryways.",
+        "price": 499.99,
+        "images": [
+            "https://img.freepik.com/free-vector/vintage-pier-table-vector-illustration-remixed-from-artwork-by-nicholas-gorid_53876-154005.jpg?t=st=1726161954~exp=1726165554~hmac=aaac55b63d6746c84031f336e558f0434a4e579352faa1d8a14f8a6531efe265&w=996",
+            "https://img.freepik.com/free-vector/vintage-pier-table-vector-illustration-remixed-from-artwork-by-nicholas-gorid_53876-154005.jpg?t=st=1726161954~exp=1726165554~hmac=aaac55b63d6746c84031f336e558f0434a4e579352faa1d8a14f8a6531efe265&w=996",
+            "https://img.freepik.com/free-vector/vintage-pier-table-vector-illustration-remixed-from-artwork-by-nicholas-gorid_53876-154005.jpg?t=st=1726161954~exp=1726165554~hmac=aaac55b63d6746c84031f336e558f0434a4e579352faa1d8a14f8a6531efe265&w=996",
+            "https://img.freepik.com/free-vector/vintage-pier-table-vector-illustration-remixed-from-artwork-by-nicholas-gorid_53876-154005.jpg?t=st=1726161954~exp=1726165554~hmac=aaac55b63d6746c84031f336e558f0434a4e579352faa1d8a14f8a6531efe265&w=996"
+        ],
+        "category": "Tables",
+        "ratings": 4.9
+    },
+    {
+        "_id": "66e32790e9becb4da2fbc391",
+        "name": "Wooden Coffee Table",
+        "description": "A sturdy wooden coffee table with a rustic finish and ample storage underneath.",
+        "price": 299.99,
+        "images": [
+            "https://img.freepik.com/free-psd/close-up-art-deco-table-isolated_23-2151657086.jpg?t=st=1726157116~exp=1726160716~hmac=dd1705bb5d3264e32ccd1d325346c1d39d22d7478597a38a698dfd6b83487e8a&w=740",
+            "https://img.freepik.com/free-psd/close-up-art-deco-table-isolated_23-2151657086.jpg?t=st=1726157116~exp=1726160716~hmac=dd1705bb5d3264e32ccd1d325346c1d39d22d7478597a38a698dfd6b83487e8a&w=740",
+            "https://img.freepik.com/free-psd/close-up-art-deco-table-isolated_23-2151657086.jpg?t=st=1726157116~exp=1726160716~hmac=dd1705bb5d3264e32ccd1d325346c1d39d22d7478597a38a698dfd6b83487e8a&w=740",
+            "https://img.freepik.com/free-psd/close-up-art-deco-table-isolated_23-2151657086.jpg?t=st=1726157116~exp=1726160716~hmac=dd1705bb5d3264e32ccd1d325346c1d39d22d7478597a38a698dfd6b83487e8a&w=740"
+        ],
+        "category": "Tables",
+        "ratings": 4.7
+    },
+    {
+        "_id": "66e32790e9becb4da2fbc37b",
+        "name": "Nightstand with Drawer",
+        "description": "A sleek nightstand with a drawer for additional storage and a modern design.",
+        "price": 129.99,
+        "images": [
+            "https://img.freepik.com/free-photo/rendering-smart-home-device_23-2151039327.jpg?t=st=1726161796~exp=1726165396~hmac=e8348ac0f91b1dc53ac07ae3f7cfd7de260c264265e6f67fc44b878e4dfee238&w=740",
+            "https://img.freepik.com/free-photo/rendering-smart-home-device_23-2151039327.jpg?t=st=1726161796~exp=1726165396~hmac=e8348ac0f91b1dc53ac07ae3f7cfd7de260c264265e6f67fc44b878e4dfee238&w=740",
+            "https://img.freepik.com/free-photo/rendering-smart-home-device_23-2151039327.jpg?t=st=1726161796~exp=1726165396~hmac=e8348ac0f91b1dc53ac07ae3f7cfd7de260c264265e6f67fc44b878e4dfee238&w=740",
+            "https://img.freepik.com/free-photo/rendering-smart-home-device_23-2151039327.jpg?t=st=1726161796~exp=1726165396~hmac=e8348ac0f91b1dc53ac07ae3f7cfd7de260c264265e6f67fc44b878e4dfee238&w=740"
+        ],
+        "category": "Bedroom",
+        "ratings": 4.7
+    },
+    {
+        "_id": "66e32790e9becb4da2fbc381",
+        "name": "Rustic Wooden Bench",
+        "description": "A handcrafted rustic wooden bench perfect for indoor or outdoor use.",
+        "price": 249.99,
+        "images": [
+            "https://img.freepik.com/free-photo/rustic-bench-tranquil-forest-autumn-leaves-generated-by-ai_188544-53940.jpg?t=st=1726161356~exp=1726164956~hmac=5a5124a11c1283fc3678099541ffafe97ea89a93b4697aa2045a8083fdaae453&w=1380",
+            "https://img.freepik.com/free-photo/rustic-bench-tranquil-forest-autumn-leaves-generated-by-ai_188544-53940.jpg?t=st=1726161356~exp=1726164956~hmac=5a5124a11c1283fc3678099541ffafe97ea89a93b4697aa2045a8083fdaae453&w=1380",
+            "https://img.freepik.com/free-photo/rustic-bench-tranquil-forest-autumn-leaves-generated-by-ai_188544-53940.jpg?t=st=1726161356~exp=1726164956~hmac=5a5124a11c1283fc3678099541ffafe97ea89a93b4697aa2045a8083fdaae453&w=1380",
+            "https://img.freepik.com/free-photo/rustic-bench-tranquil-forest-autumn-leaves-generated-by-ai_188544-53940.jpg?t=st=1726161356~exp=1726164956~hmac=5a5124a11c1283fc3678099541ffafe97ea89a93b4697aa2045a8083fdaae453&w=1380"
+        ],
+        "category": "Outdoor",
+        "ratings": 4.8
+    }
+]

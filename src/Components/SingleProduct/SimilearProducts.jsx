@@ -6,7 +6,7 @@ import ProductCard from '../Global/ProductCard';
 const SimilearProducts = ({category}) => {
     const [products, setProducts] = useState([]);
 
-    const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+    const API_URL = import.meta.env.VITE_API_URL || 'https://mononest-backend.onrender.com';
 
     useEffect(() => {
         fetch(`${API_URL}/product`)

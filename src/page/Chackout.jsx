@@ -9,7 +9,7 @@ import { useAuth } from '../Hook/useAuth';
 import { CgCheck } from 'react-icons/cg';
 
 const stripePromise = loadStripe(import.meta.env.VITE_STRIPE_PUBLIC_KEY);
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+const API_URL = import.meta.env.VITE_API_URL || 'https://mononest-backend.onrender.com';
 
 const Checkout = () => {
     const { user } = useAuth();

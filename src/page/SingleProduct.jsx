@@ -1,15 +1,35 @@
 import React, { useState } from 'react';
 import { IoStar, IoStarHalf, IoStarOutline } from 'react-icons/io5';
 import { useDispatch } from 'react-redux';
-import { Link, useLoaderData } from 'react-router-dom';
+import { Link, useLoaderData, useParams } from 'react-router-dom';
 import ProductCarousel from '../Components/SingleProduct/ProductCarousel';
 import ProductDetils from '../Components/SingleProduct/ProductDetils';
 import SimilearProducts from '../Components/SingleProduct/SimilearProducts';
 import { addToCart } from '../store/cartSlice';
+import PlaceholderProductList from '../assets/Products/PlaceholderProductList.json';
+import Loading from '../Components/Global/Loading';
 
 const SingleProduct = () => {
+    // const { id } = useParams();
     const [count, setCount] = useState(1);
-    const product = useLoaderData();
+    const product = useLoaderData();  // Real product data from the loader
+    // const [product, setProduct] = useState(PlaceholderProductList.find((p) => p._id === id)); // Initialize with placeholder
+
+    // useEffect(() => {
+    //     if (realProduct) {
+    //         setProduct(realProduct);  // Update to real data when it’s available
+    //     }
+    // }, [realProduct]);
+
+    // console.log(id);
+
+    if (!product) {
+        return (
+            <Loading />
+        );
+    }
+
+
     const dispatch = useDispatch();  // Redux dispatch
 
     const { name, description, price, images, category, ratings, _id } = product;
@@ -43,7 +63,8 @@ const SingleProduct = () => {
     const handleAddToCart = () => {
         dispatch(addToCart({ id: _id, name, price, quantity: count, images }));  // Pass the count as quantity
     };
-    
+
+    console.log(_id);
 
     return (
         <div className='container mx-auto'>
@@ -51,8 +72,8 @@ const SingleProduct = () => {
                 <ul>
                     <li className='text-gray-500'><a>Home</a></li>
                     <li className='text-gray-500'><a>Shop</a></li>
-                    <li className='text-gray-500'>{category}</li>
-                    <li>{name}</li>
+                    <li className='text-gray-500'><a>{category}</a></li>
+                    <li><a>{name}</a></li>
                 </ul>
             </div>
             <div className='flex items-start justify-around gap-20'>

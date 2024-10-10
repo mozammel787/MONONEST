@@ -2,11 +2,12 @@ import React, { useEffect, useState } from 'react';
 import { GoArrowRight } from 'react-icons/go';
 import { Link } from 'react-router-dom';
 import ProductCard from '../Global/ProductCard';
+import PlaceholderProductList from '../../assets/Products/PlaceholderProductList.json';
 
 const NewAriveProduct = () => {
-    const [products, setProducts] = useState([])
+    const [products, setProducts] = useState(PlaceholderProductList)
 
-    const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+    const API_URL = import.meta.env.VITE_API_URL || 'https://mononest-backend.onrender.com';
     useEffect(() => {
         fetch(`${API_URL}/product`)
             .then((res) => {
@@ -16,7 +17,7 @@ const NewAriveProduct = () => {
                 // console.log(data);
                 setProducts(data);
             });
-    }, []);
+    }, [API_URL]);
 
     const newProduct = products.slice(0, 5);
     return (

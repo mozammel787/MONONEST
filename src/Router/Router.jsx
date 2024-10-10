@@ -15,7 +15,7 @@ import Cart from "../page/Cart";
 import CompleteOrder from "../page/CompleteOrder";
 import Checkout from "../page/Chackout";
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+const API_URL = import.meta.env.VITE_API_URL || 'https://mononest-backend.onrender.com';
 
 export const Router = createBrowserRouter(
     [

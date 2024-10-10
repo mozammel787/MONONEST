@@ -2,30 +2,31 @@ import React, { useState, useEffect } from 'react';
 import ShopBanner from '../Components/Shop/ShopBanner';
 import Filter from '../Components/Shop/Filter';
 import ProductList from '../Components/Shop/ProductList';
+import PlaceholderProductList from '../assets/Products/PlaceholderProductList.json';
 
 const Shop = () => {
-    const [products, setProducts] = useState([]);
+    const [products, setProducts] = useState(PlaceholderProductList);
     const [loading, setLoading] = useState(true); // Add loading state
     const [selectedCategory, setSelectedCategory] = useState(null);
     const [selectedPrice, setSelectedPrice] = useState('All Price');
-
+    
     // Fetch products from the API
     useEffect(() => {
         const fetchProducts = async () => {
-            const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
-            try {
-                const response = await fetch(`${API_URL}/product`);
-                const data = await response.json();
-                setProducts(data);
-            } catch (error) {
-                console.error('Error fetching products:', error);
-            } finally {
-                setLoading(false); // Set loading to false once data is fetched
-            }
+          const API_URL = import.meta.env.VITE_API_URL || 'https://mononest-backend.onrender.com';
+          try {
+            const response = await fetch(`${API_URL}/product`);
+            const data = await response.json();
+            setProducts(data);  // Replace placeholder with real data
+          } catch (error) {
+            console.error('Error fetching products:', error);
+          } finally {
+            setLoading(false); // Set loading to false once data is fetched
+          }
         };
-
+    
         fetchProducts();
-    }, []);
+      }, []);
 
     // Extract unique categories and price ranges
     const categories = [...new Set(products.map(product => product.category))];

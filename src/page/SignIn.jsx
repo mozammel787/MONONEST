@@ -12,7 +12,7 @@ const SignIn = () => {
   const [loading, setLoading] = useState(false);
 
   const from = location?.state?.from?.pathname || '/';
-  const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+  const API_URL = import.meta.env.VITE_API_URL || 'https://mononest-backend.onrender.com';
 
   const handleGoogleSubmit = async () => {
     setLoading(true);
